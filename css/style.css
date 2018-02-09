@@ -1,344 +1,411 @@
 
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Thin'), local('BebasNeue-Thin'),
+        url('../assets/fonts/BebasNeue-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Bold'), local('BebasNeueBold'),
+        url('../assets/fonts/BebasNeueBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Light'), local('BebasNeueLight'),
+        url('../assets/fonts/BebasNeueLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Regular'), local('BebasNeueRegular'),
+        url('../assets/fonts/BebasNeueRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OSP-DIN';
+    src: local('OSP-DIN'),
+        url('../assets/fonts/OSP-DIN.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*--------------Header and Section Styles-------------*/
 body{
 	background-color:#fff;
 }
 
-section{
-	height: 560px;
+header{
+	width: 100%;
+	height: 700px;
+	overflow-y: hidden;
+
 }
+
+/*--Carousel Line--*/
+hr {
+    border: 0;
+    border-top: 2px solid #fff;
+}
+
+/*--Carousel Header--*/
+h1{
+	font-size: 50px;
+	color: #fff;
+	letter-spacing: 2px;
+	font-family: 'Bebas Neue' , sans-serif;
+	font-weight: 400;
+	font-style: bold;
+}
+
+/*--Overview Header one--*/
+h3.overview-header{
+	margin-bottom: 5px;
+    font-weight: 500;
+    font-family: 'OSP-DIN' , sans-serif;
+   	font-style: bold;
+   	font-size: 60px;
+   	letter-spacing: 2px;
+   	margin-top: 10px;
+   	color: #E7643B ;
+}
+/*--Overview Header Two--*/
+h3.overview-header2{
+	margin-bottom: 5px;
+    font-weight: 500;
+    font-family: 'OSP-DIN' , sans-serif;
+   	font-style: bold;
+   	font-size: 60px;
+   	letter-spacing: 2px;
+   	margin-top: 10px;
+   	color: #777;
+}
+
+/*--Overview Header Three--*/
+h3.overview-header3{
+	margin-bottom: 5px;
+    font-weight: 500;
+    font-family: 'OSP-DIN' , sans-serif;
+   	font-style: bold;
+   	font-size: 60px;
+   	letter-spacing: 2px;
+   	margin-top: 10px;
+   	color: #812E14;
+}
+
+/*--Carousel Sub Header--*/
+h2{
+	font-family: 'Bebas Neue' , sans-serif;
+	font-size: 40px;
+	color: #9B3718;
+	font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-bottom:0;
+    margin-top: 10px;
+}
+
+/*--Overview Sub Headers--*/
+h4{
+	font-family: 'Bebas Neue' , sans-serif;
+	font-size: 40px;
+	color: #9B3718;
+	font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-bottom:0;
+    margin-top: 30px;
+}
+
+/*--Carousel Paragraph--*/
+p.lead{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+    max-width: 600px;
+    font-family: 'Bebas' , sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+/*--Overview Paragraphs--*/
+p.lead2{
+	font-size: 25px;
+	color: #333;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-style: normal;
+	font-family: 'Bebas Neue' , sans-serif;
+	padding-top: 20px;	
+}
+
+
+/*--Footer Paragraphs--*/
+p.lead3{
+	font-size: 20px;
+	color: #333;
+	font-weight: 300;
+	letter-spacing: 1px;
+	font-style: normal;
+	font-family: 'Bebas Neue' , sans-serif;
+}
+
+/*--Button Styles--*/
+.btn-primary{
+    color: #fff;
+    background-color: #9b3718;
+    border-color: #9b3718;
+}
+
+p.lead-btn {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    max-width: 600px;
+    font-family: 'Bebas Neue Book' , sans-serif;
+}
+
+.btn-primary:hover{
+    color: #fff;
+    background-color: rgba(51,51,51,0.4);
+    border-color: #333;
+    opacity: .1;
+}
+
+
+/*--Overview One---*/
+section#overview1{
+  background: -webkit-linear-gradient(left,#E7643B  50%, #fff 50%);
+  background: -o-linear-gradient(left, #E7643B 50%, #fff  50%);
+  background: linear-gradient(to right, #E7643B  50%, #fff 50%);
+  width: 100%;
+  height: 700px;
+}
+
+/*--Overview Two---*/
+section#overview2{
+  background: -webkit-linear-gradient(left, #fff 50%, #777 50%);
+  background: -o-linear-gradient(left, #fff 50%, #777 50%);
+  background: linear-gradient(to right, #fff 50%, #777 50%);
+  width: 100%;
+  border-bottom: 2px solid #eee;
+  height: 700px;
+}
+
+/*--Overview Three---*/
+section#overview3{
+  background: -webkit-linear-gradient(left, #812E14 50%, #fff 50%)!important;
+  background: -o-linear-gradient(left,  #812E14 50%, #fff 50%)!important;
+  background: linear-gradient(to right,  #812E14 50%, #fff 50%)!important;
+  width: 100%;
+  height: 700px;
+}
+
+.overview-wrapper{
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    height: 650px;
+}
+
+footer{
+    display: block;
+    background: #eee;
+    height: 340px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+.footer-content {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+hr.hr-footer{
+	border: 1px solid #777 !important;
+}
+
+
 
 /*------NavBar Styles-------*/
 
+nav{
+	z-index: 9999;
+}
+
 .bg-light {
     background-color: #fff!important;
-    height: 80px;
+    height: 60px;
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color: #126883;
-    font-size: 20px;
+    color: #777;
+    font-style: normal;
+	font-family: 'Bebas Neue' , sans-serif;
+	padding-top: 20px;
+	font-size: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
-    color: #126883;
+    color: #9b3718;
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
-    color: #12688e;
+    color: #9b3718;
     font-size: 20px;
 }
 
 
-/*------Header Styles-------*/
-header{
-	width: 100%;
-	height: 650px;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin: 0;
-	padding: 0;
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.75) 100%), url(../img/mainBG3.png) no-repeat;
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.75) 100%), url(../img/mainBG3.png) no-repeat;
-  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.75) 100%), url(../img/mainBG3.png) no-repeat;
-  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.75) 100%), url(../img/mainBG3.png) no-repeat;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.75) 100%), url(../img/mainBG3.png) no-repeat;
+/*------Carousel Styles-------*/
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 35%;
+    left: 3%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
 }
 
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 30%;
+    left: 0;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
 
-.jumbotron {
-    background-color: transparent;
-    border-radius: 0;
-    text-align: center;
-    width: 100%;
+.carousel-control-next{
+	top: 64%;
+    bottom: 0;
+    position: absolute;
+    height: 30px;
+    width: 30px;
     margin-left: auto;
+    margin-right: 0px;
+}
+.carousel-control-prev {
+    top: 64%;
+    bottom: 0;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-left: 0;
     margin-right: auto;
 }
 
-.jumbotron-content{
-	margin-top: 50px;
-	border-radius: 20px;
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
+/*--Compter Images --*/
+.computer1{
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
 }
 
-h1.display-4{
-	font-size: 65px;
-	color: #fff;
-	font-weight: 600px;
-	letter-spacing: 2px;
+
+/*---Med Breakpoint Media Query---*/
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px)  { 
+
+	header {
+    width: 100%;
+    height: 550px;
+
 }
+
+
 
 p.lead {
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
     font-weight: 400;
-    padding-left: 20px;
-    padding-right: 20px;
-    letter-spacing: 2px;
-    max-width: 540px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-p.lead2{
-	font-size: 15px;
-	color: #fff;
-	font-weight: 400;
-	padding-left: 20px;
-	padding-right: 20px;
-	letter-spacing: 2px;
-	max-width: 540px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 2px solid #fff;
-    width: 50%;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #dd8118;
-    border-color: #dd8118;
-}
-
-/*-----Section 2 How it Works--------*/
-section#HowItWorks{
-  width: 100%;
-  height: 800px;
-  border-bottom: 1px solid #eee;
-}
-
-h2 {
-    padding-top: 50px;
-    width: 100%;
-    text-align: center;
-    font-weight: 600px;
-    letter-spacing: 2px;
-    color: #12688e;
-    font-size: 35px;
+    max-width: 350px;
+    font-family: 'Bebas' , sans-serif;
+    padding-top: 0px;
     padding-bottom: 0px;
 }
 
-hr.hr2{
-  
-    border: 0;
-    border-top: 2px solid #12688e;
-    width: 90%;
-    margin-bottom: 30px;
-}
+/*------Carousel Styles-------*/
 
-.card{
-	margin-left: auto;
-	margin-right: auto;
-	border: 2px solid #d8e9df;
-	border-radius: 15px;
-	margin-top: 20px;
-}
-
-.card-img-top {
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.card-title{
-    margin-bottom: .75rem;
-    text-align: center;
-    margin-top: .75rem;
-    color:#dd8118;
-}
-
-.blue{
-	color: #35c3ff;
-}
-
-.red{
-	color: #963536;
-}
-
-.green{
-	color: #84ae88;
-}
-
-.card-block{
-	text-align: center;
-}
-
-.card-btn1{
-   margin-bottom: 10px;
-   background-color: #35c3ff;
-   border-color: #35c3ff;
-}
-
-.card-btn2{
-   margin-bottom: 10px;
-   background-color: #963536;
-   border-color: #963536;
-}
-
-.card-btn3{
-   margin-bottom: 10px;
-   background-color: #84ae88;
-   border-color: #84ae88;
-}
-
-p.card-text{
-	padding:5px;
-	color: #12688e;
-}
-
-p.lead3{
-	text-align: center;
-	max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 25px;
-	font-weight: 400;
-	color:#12688e;
-}
-
-p.lead4{
-	text-align: left;
-	padding-left: 20px;
-	padding-right: 20px;
-	font-weight: 400;
-	color:#12688e;
-}
-
-
-/*-----Section Overview One--------*/
-
-section#overview1{
-  background-color: #35c3ff;
-  width: 100%;
-}
-
-.overview-content{
-	padding:80px 0px 0px 0px;
-}
-
-.computer1{
-	max-height: 600px;
-	max-width: 500px;
-
-}
-
-h3{
-	width: 100%;
-	text-align: center;
-	font-weight: 600px;
-	letter-spacing: 2px;
-	color: #fff;
-	font-size: 35px;
-	padding: 0px 0px 0px 0px;
-
-}
-
-p.lead5{
-	text-align: left;
-	padding-left: 0px;
-	padding-right: 0px;
-	font-weight: 400;
-	color:#fff;
-	font-size: 25px;
-}
-
-/*-----Section Overview 2--------*/
-
-section#overview2{
-  background-color: #963536;
-  width: 100%;
-}
-
-
-p.lead6 {
-    text-align: left;
-    padding-left: 40px;
-    padding-right: 0px;
-    font-weight: 400;
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 0%;
+    left: 3%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: #fff;
-    font-size: 25px;
-    margin: 0;
-}
-
-/*-----Section Overview Three----*/
-section#overview3{
-	background-color: #84ae88;
-	width: 100%;
-}
-
-/*-----Section 5 Sign Up Form--------*/
-section#Sign-up{
-  background-color: #35c3ff;
-  width: 100%;
-  height: 100px;
-}
-
-form{
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
-
-p.lead7 {
     text-align: left;
-    padding-left: 0px;
-    padding-right: 0px;
-    font-weight: 400;
-    color: #fff;
-    font-size: 25px;
-    margin: 0;
 }
 
-/*-----Footer Section-------*/
-
-footer{
-	width: 100%;
-	height: 300px;
-	background-color:#12688e;
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    left: 0;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
 }
 
-.footer-content{
-	padding-top: 50px;
-	max-width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-	color: #fff;
+.carousel-control-next{
+	top: 92%;
+    bottom: 0;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: 0px;
+}
+.carousel-control-prev {
+    top: 92%;
+    bottom: 0;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-left: 0;
+    margin-right: auto;
 }
 
-p.lead8{
-    text-align: left;
-    padding-left: 0px;
-    padding-right: 0px;
-    font-weight: 200;
-    color: #fff;
-    font-size: 18px;
-    margin: 0;
-}
-
-i{
-	padding-right: 5px;
-}
-
-.copyright-content{
-	background-color:#35c3ff;
-	width: 100%;
-	height: 60px;
-	margin-top: 60px;
-}
-
-p.copyright{
-	color: #fff;
-	font-size: 15px;
-	padding-top: 20px;
 
 }
+
 
