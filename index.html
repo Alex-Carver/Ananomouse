@@ -30,7 +30,7 @@
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item dropdown">
+      <!--<li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Products
         </a>
@@ -63,7 +63,7 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
-      </li>
+      </li>-->
     </ul>
   </div>
 </div> <!-- container -->
@@ -72,6 +72,7 @@
 <!-- Header -->
 <header>
   <div class="container">
+  <a href="#" id="scroll" style="display: none;"><span></span></a>
     <div class="row justify-content-center">
       <div class="col-sm-6">
         <div class="header-content">
@@ -85,12 +86,14 @@
     </div>
   </div>
 </header>
+
 <section id="sectionSpacer"></section>
+
 <section id="sectionOne">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-sm-12">
-        <h2 class="text-center"><span>Lorem Ipsum</span> what is Lorem Ipsum?</h2>
+        <h2 class="text-center"><span class="no-color">Lorem Ipsum</span> what is Lorem Ipsum?</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
       </div>
     </div>
@@ -123,12 +126,14 @@
 </div>
 </div>
 </section>
+
 <section id="sectionSpacer2"></section>
+
 <section id="sectionTwo">
   <div class="container">
      <div class="row justify-content-center">
       <div class="col-sm-12">
-        <h2 class="text-center"><span>Lorem Ipsum</span> What is Lorem Ipsum?</h2>
+        <h2 class="text-center"><span class="no-color">Lorem Ipsum</span> What is Lorem Ipsum?</h2>
           <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
       </div>
     </div>
@@ -149,7 +154,7 @@
 </div>
   <div class="col-sm-6">
           <div class="device-wrapper  ">
-            <div class="device" data-device="iPhone7" data-orientation="portrait" data-color="black">
+            <div class="device" data-device="Pixel" data-orientation="portrait" data-color="black">
               <div class="screen">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
@@ -180,7 +185,7 @@
     <div class="row">
       <div class="col-sm-6">
           <div class="device-wrapper">
-            <div class="device" data-device="iPhone7" data-orientation="portrait" data-color="black">
+            <div class="device" data-device="Pixel" data-orientation="portrait" data-color="black">
               <div class="screen">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
@@ -226,22 +231,35 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-sm-4">
-        <h2>Ananomouse Corporation</h2>
+        <!--<h2>Ananomouse Corporation</h2>-->
       </div>
       <div class="col-md"></div>
        <div class="col-sm-4">
-        <ol class="social text-right">
+       <!-- <ol class="social text-right">
           <li>
             <a href=""><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i></a>
           </li>
           <li><a href=""><i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a></li>
           <li><a href=""><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a></li>
-        </ol>
+        </ol>-->
       </div>
     </div>
     <div class="row justify-content-center contact">
-      <div class="col-sm-2">
-        <h4 >Products</h4>
+      <div class="col-md-12">
+        <h2 class="text-center request">Request information from Ananomouse</h2>
+        <div class="email">
+         <form class="form-inline justify-content-center">
+          <label class="sr-only" for="inlineFormInputGroup">Email</label>
+          <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+  
+    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</div>
+</div>
+      <!--<div class="col-sm-6">
         <ul class="footer-links justify-content-center">
           <li class="footer-link"><a href="#">Cancer Genomics<br>Signatures</a></li>
           <li class="footer-link"><a href="#">Bloodhound</a></li>
@@ -265,24 +283,21 @@
           <li class="footer-link"><a href="#">News</a></li>
           <li class="footer-link"><a href="#">Contact</a></li>
         </ul>
-      </div>
-      <div class="col-sm-6">
-      <form id="email-updates" class="email-signup mailer" action="/mailing-list/subscribe/" name="mc-embedded-subscribe-form" method="post"><label for="EMAIL" class="email-added margin-b-m"><!-- react-text: 1027 -->Subscribe to Ananomouse<!-- /react-text --></label><span class="email-signup-feedback"></span><input type="email" id="EMAIL" name="email" placeholder="Enter your email"></form>
-
-      </div>
-  </div>
+  </div> -->
     <div class="row">
       <div class="col-sm-6">
-        <p class="info">245 First Street, Riverview II, 18th Floor Cambridge, Massachusetts, 02142</p>
+        <h2 class="info-title">Ananomouse Corporation</h2>
+        <p class="info">245 First Street, Riverview II, 18th Floor <br>Cambridge, Massachusetts, 02142</p>
       </div>
       <div class="col-sm-6">
+      <h2 class="text-right info-title">Contact</h2>
         <p class="text-right info"> (617) 848-9493<br>
             information@ananomouse.com</p>
       </div>
     </div>
        <div class="row justify-content-center">
       <div class="col-sm-12">
-        <p class="text-left info">© 2005-2018 Ananomouse Corporation. All rights reserved</p>
+        <p class="text-left copyright">© 2005-2018 Ananomouse Corporation. All rights reserved</p>
       </div>
   </div>
 </div>
@@ -291,10 +306,12 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.slick/1.3.15/slick.min.js"></script>
     <script type="text/javascript" src="./js/app.js"></script>
   </body>
 </html>

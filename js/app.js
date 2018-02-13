@@ -1,7 +1,14 @@
-$('.slider').slick({
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    dots: true,
-    infinite: true,
-    cssEase: 'linear'
+
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
 });

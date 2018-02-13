@@ -51,7 +51,7 @@ h1{
 
 h1 span {
     font-weight: 400;
-    color: #363636;
+    color: #953412;
     display: block;
     font-size: 40px;
     letter-spacing: -2px;
@@ -63,7 +63,7 @@ h2{
 	font-size: 25px;
 	line-height: 40px;
 	margin-bottom: 20px;
-	color: #333;
+	color: #953412;
 }
 
 h2 span{
@@ -75,12 +75,19 @@ h2 span{
     margin-bottom: 20px;
 }
 
-h4{
-	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 400;
-	font-size: 25px;
-	margin-bottom: 0px;
-	color: #333;
+h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    margin-bottom: 0px;
+    color: #eee!important;
+}
+
+.email{
+	width: 100%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 label{
@@ -89,7 +96,22 @@ label{
 	font-size: 25px;
 	display: inline-block;
     margin-bottom: .5rem;
-    color: #333;
+    color: #eee;
+}
+
+.btn-primary {
+    background-color: #953412;
+    border-color: #953412;
+    color: #eee;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+.btn-primary:hover{
+    color: #eee;
+    background-color: #333;
+    border-color:#333;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
 }
 
 p{
@@ -99,6 +121,12 @@ p{
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
+p.scroll-text{
+	font-style: 25px;
+	padding:0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+}
 
 ul li{
 	display: block;
@@ -157,7 +185,7 @@ ol li{
 #sectionSpacer3{
 	height: 110px;
 	width: 100%;
-	background-color: #eee;
+	background-color: #fff;
 	margin-bottom: 0px;
 }
 
@@ -168,7 +196,15 @@ ol li{
 	background-repeat: no-repeat;
 	height: auto;
 	background:#fff;
+}
 
+#sectionOne h2 span {
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #478b8d;
+    line-height: 40px;
+    margin-bottom: 20px;
 }
 
 .big-img{
@@ -199,6 +235,28 @@ ol li{
 	background-size: cover;
 	background-position: center;
 	background-image: url(../img/section2.png);
+}
+
+ h2 span{
+	font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #478b8d;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+ #footer h2 span{
+	font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #eee;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+span.no-color{
+	color: #333!important;
 }
 
 
@@ -233,14 +291,60 @@ ol li{
 
 /*--Footer Styles--*/
 footer#footer {
-    background: #eee;
-    color: #333;
+    background-image: url(../img/footer2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #eee;
     font-size: 18px;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     padding-bottom: 0px;
     padding-top: 0px;
     width: 100%;
+}
+
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#478b8d;
+    text-indent:-9999px;
+    display:none;
+    z-index: 10;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#953412;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+
+
+
+#footer h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    color: #eee;
 }
 
 .icon-wrapper{
@@ -270,13 +374,23 @@ footer#footer {
     color: #333;
 }
 
-.contact{
-	padding-top: 50px;
-	padding-bottom: 50px;
+.contact {
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
-.info{
-	color:  #bababa;
+.info {
+    color: #eee;
+    margin: 0;
+    font-size: 15px;
+}
+
+.copyright{
+	color: #eee;
+    margin: 0;
+    padding-top: 20px;
+    font-size:12px;
+    padding-bottom: 10px;
 }
 
 /*--------Media Queries-------*/
@@ -300,11 +414,16 @@ and (max-width : 1024px)  {
 
 header {
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/mainBG.png);
     background-size: cover;
+}
+
+#scroll{
+    background-color: #478b8d;
+    opacity: .4;
 }
 	
 	h1 {
@@ -319,9 +438,9 @@ header {
 
 h1 span {
     font-weight: 400;
-    color: #363636;
+    color: #953412;
     display: block;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: -2px;
 }
 
@@ -345,6 +464,18 @@ h4 {
     margin-bottom: 0px;
     color: #333;
 }
+
+#footer h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #eee;
+}
+
+
 
 .footer-link{
 	font-size:15px;
@@ -390,6 +521,11 @@ and (max-device-width : 667px) {
     text-align: center;
 }
 
+#scroll{
+    background-color: #478b8d;
+    opacity: .4;
+}
+
 h1 {
     font-size: 40px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -402,7 +538,7 @@ h1 {
 
 h1 span {
     font-weight: 400;
-    color: #363636;
+    color: #953412;
     display: block;
     font-size: 30px;
     letter-spacing: -2px;
@@ -416,7 +552,7 @@ h2 span {
     font-size: 25px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
-    color: #363636;
+    color: #478b8d;
     line-height: 40px;
     margin-bottom: 20px;
     display: block;
@@ -442,6 +578,27 @@ ol.social{
     text-align: left!important;
     font-size:18px;
 }
+
+#footer h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #eee;
+    text-align: left!important;
+}
+
+.request{
+	text-align: center!important;
+	font-size:25px!important;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	line-height: 40px;
+}
+
+
 
 }
 
@@ -479,6 +636,11 @@ and (max-device-width : 568px) {
     text-align: center;
 }
 
+#scroll{
+    background-color: #478b8d;
+    opacity: .4;
+}
+
 header {
     width: 100%;
     height: 800px;
@@ -500,7 +662,7 @@ h1 {
 
 h1 span {
     font-weight: 400;
-    color: #363636;
+    color: #953412;
     display: block;
     font-size: 30px;
     letter-spacing: -2px;
@@ -514,7 +676,7 @@ h2 span {
     font-size: 25px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
-    color: #363636;
+    color: #478b8d;
     line-height: 40px;
     margin-bottom: 20px;
     display: block;
@@ -529,6 +691,13 @@ h2 span {
     background-image: url(../img/section2.png);
 }
 
+#sectionSpacer3 {
+    height: 0px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 0px;
+}
+
 ol.social{
 	text-align: left!important;
 	margin: 0;
@@ -539,6 +708,38 @@ ol.social{
     color: #bababa;
     text-align: left!important;
     font-size:18px;
+}
+
+
+#footer h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #eee;
+}
+
+.info-title{
+	text-align: left!important;
+}
+
+.request{
+	text-align: center!important;
+	font-size:25px!important;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	line-height: 40px;
+}
+
+.btn-primary {
+    background-color: #953412;
+    border-color: #953412;
+    color: #eee;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
 }
 
 }
