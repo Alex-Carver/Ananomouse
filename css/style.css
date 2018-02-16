@@ -2,6 +2,7 @@ body {
   background-color: #fff;
   margin-bottom: -100px;
   padding-top: 70px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 hr {
@@ -10,9 +11,6 @@ hr {
 }
 
 /*----Nav Styles-----*/
-.logo {
-  width: 80%;
-}
 
 .bg-light {
   background-color: #fff !important;
@@ -77,7 +75,7 @@ h2 span {
 
 h4 {
   font-family: "Roboto Condensed", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 25px;
   margin-bottom: 0px;
   color: #eee !important;
@@ -116,7 +114,7 @@ label {
 
 p {
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 30px;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -126,42 +124,6 @@ p.scroll-text {
   padding: 0;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
-}
-
-ul li {
-  display: block;
-  list-style-type: none;
-  margin: 0;
-  padding: 0 !important;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 200;
-  font-size: 18px;
-}
-
-ul li a {
-  color: #bababa;
-}
-
-ul li a:hover {
-  color: #333;
-  text-decoration: none;
-}
-
-ol li a {
-  color: #bababa;
-}
-
-ol li a:hover {
-  color: #333;
-  text-decoration: none;
-}
-
-ol li {
-  display: inline-block;
-  list-style-type: none;
-  margin: 0;
-
-  padding-right: 20px;
 }
 
 /*---Spacer Styles--*/
@@ -433,14 +395,14 @@ footer#footer {
    p.small-screen{
   	padding-left: 20px!important;
   	font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 30px;
     font-family: "Roboto Condensed", sans-serif;
 }
 
   #sectionTwo p {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 30px;
     font-family: "Roboto Condensed", sans-serif;
     text-align: left !important;
@@ -588,7 +550,7 @@ footer#footer {
     p.small-screen{
   	padding-left: 20px!important;
   	font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 30px;
     font-family: "Roboto Condensed", sans-serif;
 }
@@ -620,12 +582,6 @@ footer#footer {
     text-align: left !important;
   }
 
-
-  ol.social {
-    text-align: left !important;
-    margin: 0;
-    padding: 0;
-  }
 
   .info {
     color: #bababa;
@@ -760,11 +716,6 @@ footer#footer {
     margin-bottom: 0px;
   }
 
-  ol.social {
-    text-align: left !important;
-    margin: 0;
-    padding: 0;
-  }
 
   .info {
     color: #bababa;
@@ -821,7 +772,7 @@ h1 {
  p.small-screen{
   	padding-left: 20px!important;
   	font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 30px;
     font-family: "Roboto Condensed", sans-serif;
 }
