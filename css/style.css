@@ -17,6 +17,7 @@ body {
     background-image: url(../img/logo.svg);
     height: 55px;
     background-repeat: no-repeat;
+    background-size: contain;
     width: 250px;
     margin-left: 10px;
 }
@@ -247,6 +248,8 @@ span.no-color {
 
 .device-text-wrapper {
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*--Footer Styles--*/
@@ -266,7 +269,7 @@ footer#footer {
 
 #scroll {
     position: fixed;
-    right: 50px;
+    right: 30px;
     bottom: 10px;
     cursor: pointer;
     width: 50px;
@@ -615,13 +618,7 @@ font-family: 'Roboto Condensed', sans-serif;
   .navbar-toggler {
     margin-right: 10px;
   }
-.logo {
-    background-image: url(../img/logo.svg);
-    height: 55px;
-    background-repeat: no-repeat;
-    width: 260px;
-    margin-left: 5px;
-}
+
 
   .dropdown-item {
     display: block;
