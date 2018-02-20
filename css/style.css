@@ -19,7 +19,6 @@
 }
 
 
-
 *{
   margin: 0;
   padding:0;
@@ -35,7 +34,7 @@ body {
 .navbar-brand {
     width: 250px;
     margin-left: 10px;
-  
+
 }
 
 hr {
@@ -89,7 +88,7 @@ h1 span {
 }
 
 h2 {
-font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-size: 25px;
     line-height: 40px;
@@ -99,7 +98,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 h2 span {
   font-size: 30px;
-font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
   color: #3e95a6;
   line-height: 40px;
@@ -286,7 +285,7 @@ footer#footer {
 
 #scroll {
     position: fixed;
-    right: 30px;
+    right: 10px;
     bottom: 10px;
     cursor: pointer;
     width: 50px;
@@ -549,9 +548,19 @@ font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: -2px;
   }
 
+  h2 span {
+    font-size: 23px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #478b8d;
+    line-height: 40px;
+    margin-bottom: 20px;
+    display: inline;
+}
+
 #sectionOne h2 span {
     font-size: 30px;
-font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     color: #478b8d;
     line-height: 40px;
@@ -696,15 +705,15 @@ font-family: 'Roboto Condensed', sans-serif;
     padding-top: 0px;
   }
 
-  h2 span {
+h2 span {
     font-size: 23px;
-font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     color: #478b8d;
     line-height: 40px;
     margin-bottom: 20px;
-    display: block;
-  }
+    display: inline;
+}
 
   #sectionTwo {
     width: 100%;
@@ -813,6 +822,15 @@ font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 }
 
+h2 span {
+    font-size: 23px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #478b8d;
+    line-height: 40px;
+    margin-bottom: 20px;
+    display: inline;
+}
 
 }
 
