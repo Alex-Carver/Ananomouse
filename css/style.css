@@ -68,18 +68,10 @@ h2 span {
   font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
-  color: #478b8d;
+  color: #3e95a6;
   line-height: 40px;
   margin-bottom: 20px;
 }
-
- p span{
-  font-size: 30px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
-  color: #333;
-  line-height: 40px;
-  }
 
 h4 {
   font-family: "Roboto Condensed", sans-serif;
@@ -171,7 +163,7 @@ p.scroll-text {
     font-size: 30px;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
-    color: #478b8d;
+    color: #3e95a6;
     line-height: 40px;
     margin-bottom: 20px;
 }
@@ -210,15 +202,6 @@ p.scroll-text {
   background-image: url(../img/section2.png);
 }
 
-#sectionOne h2 span {
-    font-size: 25px;
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    color: #478b8d;
-    line-height: 40px;
-    margin-bottom: 20px;
-}
-
 span.no-color {
   color: #333 !important;
 }
@@ -253,7 +236,7 @@ span.no-color {
 
 /*--Footer Styles--*/
 footer#footer {
-  background-image: url(../img/footer2.png);
+  background-image: url(../img/footer.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -273,7 +256,7 @@ footer#footer {
   cursor: pointer;
   width: 50px;
   height: 50px;
-  background-color: #478b8d;
+  background-color: #3e95a6;
   text-indent: -9999px;
   display: none;
   z-index: 10;
