@@ -8,6 +8,13 @@ body {
 font-family: 'Roboto Condensed', sans-serif;
 }
 
+.logo{
+  background-image: url(../img/logo.svg);
+  height: 50px;
+  width: 240px;
+  background-repeat: no-repeat;
+}
+
 
 hr {
   border: 0;
