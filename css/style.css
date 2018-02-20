@@ -1,14 +1,14 @@
 /*----fonts for svg logo---------*/
 @font-face {
     font-family: 'Avenir LT Std';
-    src: url('../fonts/avenir.otf') format('otf');
+    src: url('avenir.otf') format('otf');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Avenir LT Std';
-    src: url('../fonts/AvenirBook') format('otf');
+    src: url('AvenirBook') format('otf');
     font-weight: normal;
     font-style: normal;
 }
