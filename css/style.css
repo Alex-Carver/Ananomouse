@@ -1,11 +1,11 @@
   /*Google Font */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
 
 body {
   background-color: #fff;
   margin-bottom: -100px;
   padding-top: 70px;
-  font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -42,8 +42,8 @@ header {
 
 /*---Element Styles---*/
 h1 {
-    font-size: 55px;
-    font-family: "Roboto Condensed", sans-serif;
+    font-size: 50px;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     color: #363636;
@@ -60,7 +60,7 @@ h1 span {
 }
 
 h2 {
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-size: 25px;
     line-height: 40px;
@@ -70,7 +70,7 @@ h2 {
 
 h2 span {
   font-size: 30px;
-  font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
   color: #3e95a6;
   line-height: 40px;
@@ -78,7 +78,7 @@ h2 span {
 }
 
 h4 {
-  font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   font-size: 25px;
   margin-bottom: 0px;
@@ -93,7 +93,7 @@ h4 {
 }
 
 label {
-  font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   font-size: 25px;
   display: inline-block;
@@ -105,27 +105,27 @@ label {
   background-color: #953412;
   border-color: #953412;
   color: #eee;
-  font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
 }
 .btn-primary:hover {
   color: #eee;
   background-color: #333;
   border-color: #333;
-  font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
 }
 
 p {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 p.scroll-text {
   font-style: 25px;
   padding: 0;
-  font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
 }
 
@@ -165,7 +165,7 @@ p.scroll-text {
 
 #sectionOne h2 span {
     font-size: 30px;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     color: #3e95a6;
     line-height: 40px;
@@ -287,7 +287,7 @@ footer#footer {
 }
 
 #footer h2 {
-  font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   font-size: 25px;
   line-height: 40px;
@@ -324,7 +324,7 @@ footer#footer {
 
 .request {
   font-size: 25px !important;
-  font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   line-height: 40px;
   padding-right: 20px;
@@ -379,7 +379,7 @@ footer#footer {
 
   h1 {
     font-size: 35px;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     color: #363636;
@@ -392,14 +392,14 @@ footer#footer {
   	font-size: 20px;
     font-weight: 400;
     margin-bottom: 30px;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
   #sectionTwo p {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 30px;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     text-align: left !important;
   }
 
@@ -425,7 +425,7 @@ footer#footer {
   }
 
   h4 {
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 0px;
@@ -435,13 +435,13 @@ footer#footer {
   .request {
   	text-align: left!important
     font-size: 25px !important;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     line-height: 40px;
   }
 
   #footer h2 {
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-size: 25px;
     line-height: 40px;
@@ -506,7 +506,7 @@ footer#footer {
 
   h1 {
     font-size: 40px;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     color: #363636;
@@ -524,7 +524,7 @@ footer#footer {
 
 #sectionOne h2 span {
     font-size: 30px;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     color: #478b8d;
     line-height: 40px;
@@ -547,7 +547,7 @@ footer#footer {
   	font-size: 20px;
     font-weight: 400;
     margin-bottom: 30px;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
   .header-content {
@@ -556,7 +556,7 @@ footer#footer {
 
 #sectionTwo h2 span {
     font-size: 23px;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     color: #478b8d;
     line-height: 40px;
@@ -585,7 +585,7 @@ footer#footer {
   }
 
   #footer h2 {
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-size: 25px;
     line-height: 40px;
@@ -597,7 +597,7 @@ footer#footer {
   .request {
   	text-align: left!important
     font-size: 25px !important;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     line-height: 40px;
   }
@@ -650,7 +650,7 @@ footer#footer {
 
   h1 {
     font-size: 40px;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     color: #363636;
@@ -676,7 +676,7 @@ footer#footer {
 
   h2 span {
     font-size: 23px;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     color: #478b8d;
     line-height: 40px;
@@ -719,7 +719,7 @@ footer#footer {
   }
 
   #footer h2 {
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-size: 25px;
     line-height: 40px;
@@ -735,7 +735,7 @@ footer#footer {
   .request {
   	text-align: left!important
     font-size: 25px !important;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     line-height: 40px;
   }
@@ -758,7 +758,7 @@ footer#footer {
     background-color: #953412;
     border-color: #953412;
     color: #eee;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -775,7 +775,7 @@ and (max-device-width : 480px) {
 
 h1 {
     font-size: 30px;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     color: #363636;
@@ -788,7 +788,7 @@ h1 {
   	font-size: 20px;
     font-weight: 400;
     margin-bottom: 30px;
-    font-family: "Roboto Condensed", sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 
