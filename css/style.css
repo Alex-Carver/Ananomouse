@@ -13,14 +13,12 @@ body {
   height: 100%;
 }
 
-.navbar-brand {
-    background-image: url(../img/logo.svg);
+#navbar-brand {
     height: 55px;
-    background-repeat: no-repeat;
-    background-size: contain;
     width: 250px;
     margin-left: 10px;
 }
+
 hr {
   border: 0;
   border-top: 2px solid #fff;
