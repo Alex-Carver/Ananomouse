@@ -17,8 +17,7 @@ body {
     background-image: url(../img/logo.svg);
     height: 55px;
     background-repeat: no-repeat;
-    width: 100%;
-    max-width: 250px;
+    width: 250px;
     margin-left: 10px;
 }
 hr {
