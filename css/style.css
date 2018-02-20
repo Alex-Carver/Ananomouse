@@ -1,18 +1,5 @@
-/*----fonts for svg logo---------*/
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('avenir.otf') format('otf');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('AvenirBook') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
+  /*Google Font */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,900);
 
 body {
   background-color: #fff;
