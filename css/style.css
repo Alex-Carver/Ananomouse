@@ -35,9 +35,7 @@ body {
 .navbar-brand {
     width: 250px;
     margin-left: 10px;
-    position: absolute;
-    top: 0;
-    left: 0;
+  
 }
 
 hr {
