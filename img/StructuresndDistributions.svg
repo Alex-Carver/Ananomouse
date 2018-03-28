@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 792 612" style="enable-background:new 0 0 792 612;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{font-family:'Calibri-Bold';}
+	.st2{font-size:11px;}
+	.st3{font-family:'Calibri';}
+	.st4{fill:#58595B;}
+	.st5{letter-spacing:1;}
+	.st6{fill:#FFFFFF;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st8{font-size:10px;}
+	.st9{clip-path:url(#XMLID_92_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st10{clip-path:url(#XMLID_177_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st11{clip-path:url(#XMLID_178_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st12{clip-path:url(#XMLID_180_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st13{clip-path:url(#XMLID_181_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st14{clip-path:url(#XMLID_183_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st15{clip-path:url(#XMLID_184_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st16{clip-path:url(#XMLID_186_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st17{clip-path:url(#XMLID_187_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st18{clip-path:url(#XMLID_189_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st19{clip-path:url(#XMLID_240_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st20{fill-rule:evenodd;clip-rule:evenodd;fill:#38B44A;}
+	.st21{clip-path:url(#XMLID_430_);fill-rule:evenodd;clip-rule:evenodd;fill:#5BBA47;}
+	.st22{fill-rule:evenodd;clip-rule:evenodd;fill:#93C840;}
+	.st23{fill-rule:evenodd;clip-rule:evenodd;fill:#DAD124;}
+	.st24{fill-rule:evenodd;clip-rule:evenodd;fill:#E89724;}
+	.st25{clip-path:url(#XMLID_435_);fill-rule:evenodd;clip-rule:evenodd;fill:#F15725;}
+	.st26{fill-rule:evenodd;clip-rule:evenodd;fill:#EC2526;}
+	.st27{fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st28{clip-path:url(#XMLID_438_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st29{clip-path:url(#XMLID_439_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st30{clip-path:url(#XMLID_440_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st31{clip-path:url(#XMLID_441_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st32{clip-path:url(#XMLID_442_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st33{clip-path:url(#XMLID_443_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st34{clip-path:url(#XMLID_444_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st35{clip-path:url(#XMLID_445_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st36{clip-path:url(#XMLID_446_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st37{clip-path:url(#XMLID_447_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st38{clip-path:url(#XMLID_448_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st39{clip-path:url(#XMLID_449_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st40{clip-path:url(#XMLID_450_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st41{clip-path:url(#XMLID_451_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st42{clip-path:url(#XMLID_452_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st43{clip-path:url(#XMLID_453_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st44{clip-path:url(#XMLID_454_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st45{clip-path:url(#XMLID_455_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st46{clip-path:url(#XMLID_456_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st47{clip-path:url(#XMLID_457_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st48{clip-path:url(#XMLID_458_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st49{clip-path:url(#XMLID_459_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st50{clip-path:url(#XMLID_460_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st51{clip-path:url(#XMLID_461_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st52{clip-path:url(#XMLID_462_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st53{clip-path:url(#XMLID_463_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st54{clip-path:url(#XMLID_464_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st55{clip-path:url(#XMLID_465_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st56{clip-path:url(#XMLID_466_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st57{clip-path:url(#XMLID_467_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st58{clip-path:url(#XMLID_468_);fill:none;stroke:#A5A5A5;stroke-width:0.2483;stroke-miterlimit:3;}
+	.st59{fill:#59595B;}
+	.st60{fill-rule:evenodd;clip-rule:evenodd;fill:#5BBA47;}
+	.st61{fill-rule:evenodd;clip-rule:evenodd;fill:#F15725;}
+	.st62{clip-path:url(#XMLID_469_);fill:none;stroke:#A6A6A6;stroke-width:0.7787;stroke-miterlimit:10;}
+	.st63{clip-path:url(#XMLID_469_);fill:none;stroke:#BFBFBF;stroke-width:0.7787;stroke-miterlimit:10;}
+	
+		.st64{clip-path:url(#XMLID_470_);fill:none;stroke:#BFBFBF;stroke-width:0.7787;stroke-miterlimit:10;stroke-dasharray:1.5575,1.5575;}
+	.st65{fill:none;stroke:#03765A;stroke-miterlimit:10;}
+	.st66{fill-rule:evenodd;clip-rule:evenodd;}
+	.st67{fill:none;stroke:#1EA149;stroke-miterlimit:10;}
+	.st68{fill:none;stroke:#87C541;stroke-miterlimit:10;}
+	.st69{fill:none;stroke:#D1CF2F;stroke-miterlimit:10;}
+	.st70{fill:none;stroke:#E67925;stroke-miterlimit:10;}
+	.st71{fill:none;stroke:#EF4351;stroke-miterlimit:10;}
+	.st72{opacity:5.000000e-002;fill:none;stroke:#E6E6E6;stroke-width:0.7787;stroke-miterlimit:10;}
+</style>
+<rect id="XMLID_387_" x="0.9" y="433.6" class="st0" width="792.2" height="183.8"/>
+<text id="XMLID_386_" transform="matrix(1 0 0 1 72.8731 441.0923)"><tspan x="0" y="0" class="st1 st2">Figure</tspan><tspan x="28.3" y="0" class="st1 st2"> </tspan><tspan x="30.3" y="0" class="st1 st2">2.</tspan><tspan x="38.8" y="0" class="st3 st2"> </tspan><tspan x="40.9" y="0" class="st4 st3 st2">Probability</tspan><tspan x="89.3" y="0" class="st4 st3 st2"> </tspan><tspan x="91.3" y="0" class="st4 st3 st2">of</tspan><tspan x="100.4" y="0" class="st4 st3 st2"> </tspan><tspan x="102.4" y="0" class="st4 st3 st2">classifying</tspan><tspan x="147.8" y="0" class="st4 st3 st2"> </tspan><tspan x="149.9" y="0" class="st4 st3 st2">a</tspan><tspan x="155.1" y="0" class="st4 st3 st2"> </tspan><tspan x="157.1" y="0" class="st4 st3 st2">true</tspan><tspan x="175.9" y="0" class="st4 st3 st2"> </tspan><tspan x="177.9" y="0" class="st4 st3 st2">positive</tspan><tspan x="212.9" y="0" class="st4 st3 st2"> </tspan><tspan x="214.9" y="0" class="st4 st3 st2">according</tspan><tspan x="258.4" y="0" class="st4 st3 st2"> </tspan><tspan x="260.4" y="0" class="st4 st3 st2">to</tspan><tspan x="269.9" y="0" class="st4 st3 st2"> </tspan><tspan x="271.9" y="0" class="st4 st3 st2">likelihood</tspan><tspan x="315.7" y="0" class="st4 st3 st2"> </tspan><tspan x="317.7" y="0" class="st4 st3 st2">ratio</tspan><tspan x="338.7" y="0" class="st4 st3 st2"> </tspan><tspan x="340.7" y="0" class="st4 st3 st2">(LR)</tspan><tspan x="358" y="0" class="st4 st3 st2"> </tspan><tspan x="360" y="0" class="st4 st3 st2">scores.</tspan><tspan x="391.2" y="0" class="st4 st3 st2"> </tspan><tspan x="393.2" y="0" class="st1 st2">A</tspan><tspan x="399.9" y="0" class="st4 st3 st2"> </tspan><tspan x="401.9" y="0" class="st4 st3 st2">Cumulative</tspan><tspan x="452.4" y="0" class="st4 st3 st2"> </tspan><tspan x="454.5" y="0" class="st4 st3 st2">probability</tspan><tspan x="502.9" y="0" class="st4 st3 st2"> </tspan><tspan x="505" y="0" class="st4 st3 st2">of</tspan><tspan x="514.1" y="0" class="st4 st3 st2"> </tspan><tspan x="516.1" y="0" class="st4 st3 st2">observing</tspan><tspan x="559.8" y="0" class="st4 st3 st2"> </tspan><tspan x="561.8" y="0" class="st4 st3 st2">a</tspan><tspan x="567.1" y="0" class="st4 st3 st2"> </tspan><tspan x="569.1" y="0" class="st4 st3 st2">true</tspan><tspan x="587.9" y="0" class="st4 st3 st2"> </tspan><tspan x="589.9" y="0" class="st4 st3 st2">match</tspan><tspan x="618.1" y="0" class="st4 st3 st2"> </tspan><tspan x="620.1" y="0" class="st4 st3 st2">within </tspan><tspan x="0" y="13.2" class="st4 st3 st2">the first 16 LR score ranks for varying pedigree structures. The region under each curve is colored to express decreasing sensitivity (from green to </tspan><tspan x="0" y="26.4" class="st4 st3 st2">red)</tspan><tspan x="18.4" y="26.4" class="st4 st3 st2"> </tspan><tspan x="21.8" y="26.4" class="st4 st3 st2">with</tspan><tspan x="41.6" y="26.4" class="st4 st3 st2"> </tspan><tspan x="44.9" y="26.4" class="st4 st3 st2">less</tspan><tspan x="61.5" y="26.4" class="st4 st3 st2"> </tspan><tspan x="64.9" y="26.4" class="st4 st3 st2">informative</tspan><tspan x="116.8" y="26.4" class="st4 st3 st2"> </tspan><tspan x="120.1" y="26.4" class="st4 st3 st2">pedigree</tspan><tspan x="159.6" y="26.4" class="st4 st3 st2"> </tspan><tspan x="162.9" y="26.4" class="st4 st3 st2">structures.</tspan><tspan x="211.1" y="26.4" class="st4 st3 st2"> </tspan><tspan x="214.4" y="26.4" class="st1 st2">B</tspan><tspan x="220.5" y="26.4" class="st3 st2"> </tspan><tspan x="223.9" y="26.4" class="st4 st3 st2">Boxplots</tspan><tspan x="262.5" y="26.4" class="st4 st3 st2"> </tspan><tspan x="265.8" y="26.4" class="st4 st3 st2">of</tspan><tspan x="275" y="26.4" class="st4 st3 st2"> </tspan><tspan x="278.3" y="26.4" class="st4 st3 st2">LR</tspan><tspan x="288.9" y="26.4" class="st4 st3 st2"> </tspan><tspan x="292.3" y="26.4" class="st4 st3 st2">score</tspan><tspan x="316.3" y="26.4" class="st4 st3 st2"> </tspan><tspan x="319.6" y="26.4" class="st4 st3 st2">distributions</tspan><tspan x="375.9" y="26.4" class="st4 st3 st2"> </tspan><tspan x="379.2" y="26.4" class="st4 st3 st2">for</tspan><tspan x="392.2" y="26.4" class="st4 st3 st2"> </tspan><tspan x="395.5" y="26.4" class="st4 st3 st2">true</tspan><tspan x="414.3" y="26.4" class="st4 st3 st2"> </tspan><tspan x="417.6" y="26.4" class="st4 st3 st2">matches</tspan><tspan x="455.6" y="26.4" class="st4 st3 st2"> </tspan><tspan x="458.9" y="26.4" class="st4 st3 st2">for</tspan><tspan x="471.9" y="26.4" class="st4 st3 st2"> </tspan><tspan x="475.2" y="26.4" class="st4 st3 st2">varying</tspan><tspan x="507.7" y="26.4" class="st4 st3 st2"> </tspan><tspan x="511.1" y="26.4" class="st4 st3 st2">pedigree</tspan><tspan x="550.6" y="26.4" class="st4 st3 st2"> </tspan><tspan x="553.9" y="26.4" class="st4 st3 st2">structures.</tspan><tspan x="602" y="26.4" class="st4 st3 st2"> </tspan><tspan x="605.3" y="26.4" class="st4 st3 st2">Across</tspan><tspan x="634.6" y="26.4" class="st4 st3 st2"> </tspan><tspan x="637.9" y="26.4" class="st4 st3 st2">all </tspan><tspan x="0" y="39.6" class="st4 st3 st2">structures,</tspan><tspan x="48.1" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="51.8" y="39.6" class="st4 st3 st2">most</tspan><tspan x="74.3" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="78" y="39.6" class="st4 st3 st2">true</tspan><tspan x="96.8" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="100.5" y="39.6" class="st4 st3 st2">matches</tspan><tspan x="138.4" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="142.1" y="39.6" class="st4 st3 st2">with</tspan><tspan x="161.9" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="165.6" y="39.6" class="st4 st3 st2">LR</tspan><tspan x="176.2" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="179.9" y="39.6" class="st4 st3 st2">scores</tspan><tspan x="208.3" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="212" y="39.6" class="st4 st3 st2">below</tspan><tspan x="239.4" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="243.1" y="39.6" class="st4 st3 st2">3</tspan><tspan x="248.7" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="252.3" y="39.6" class="st4 st3 st2">were</tspan><tspan x="275" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="278.7" y="39.6" class="st4 st3 st2">classified</tspan><tspan x="319.3" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="323" y="39.6" class="st4 st3 st2">as</tspan><tspan x="332.6" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="336.2" y="39.6" class="st4 st3 st2">non-matches,</tspan><tspan x="397.7" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="401.3" y="39.6" class="st4 st3 st2">while</tspan><tspan x="425.5" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="429.2" y="39.6" class="st4 st3 st2">those</tspan><tspan x="454.2" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="457.9" y="39.6" class="st4 st3 st2">with</tspan><tspan x="477.8" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="481.4" y="39.6" class="st4 st3 st2">LR</tspan><tspan x="492" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="495.7" y="39.6" class="st4 st3 st2">scores</tspan><tspan x="524.1" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="527.8" y="39.6" class="st4 st3 st2">above</tspan><tspan x="555.1" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="558.7" y="39.6" class="st4 st3 st2">6</tspan><tspan x="564.3" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="568" y="39.6" class="st4 st3 st2">were</tspan><tspan x="590.6" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="594.3" y="39.6" class="st4 st3 st2">classified</tspan><tspan x="635" y="39.6" class="st4 st3 st2 st5"> </tspan><tspan x="638.7" y="39.6" class="st4 st3 st2">as </tspan><tspan x="0" y="52.8" class="st4 st3 st2">matches.</tspan><tspan x="40.7" y="52.8" class="st4 st3 st2"> </tspan><tspan x="42.8" y="52.8" class="st4 st3 st2">The</tspan><tspan x="59.4" y="52.8" class="st4 st3 st2"> </tspan><tspan x="61.6" y="52.8" class="st4 st3 st2">area</tspan><tspan x="81.4" y="52.8" class="st4 st3 st2"> </tspan><tspan x="83.5" y="52.8" class="st4 st3 st2">between</tspan><tspan x="123" y="52.8" class="st4 st3 st2"> </tspan><tspan x="125.1" y="52.8" class="st4 st3 st2">these</tspan><tspan x="149.9" y="52.8" class="st4 st3 st2"> </tspan><tspan x="152" y="52.8" class="st4 st3 st2">scores</tspan><tspan x="180.3" y="52.8" class="st4 st3 st2"> </tspan><tspan x="182.4" y="52.8" class="st4 st3 st2">represents</tspan><tspan x="230.4" y="52.8" class="st4 st3 st2"> </tspan><tspan x="232.5" y="52.8" class="st4 st3 st2">a</tspan><tspan x="237.8" y="52.8" class="st4 st3 st2"> </tspan><tspan x="239.9" y="52.8" class="st4 st3 st2">marginal</tspan><tspan x="279" y="52.8" class="st4 st3 st2"> </tspan><tspan x="281.1" y="52.8" class="st4 st3 st2">confidence</tspan><tspan x="330.3" y="52.8" class="st4 st3 st2"> </tspan><tspan x="332.5" y="52.8" class="st4 st3 st2">zone</tspan><tspan x="353.9" y="52.8" class="st4 st3 st2"> </tspan><tspan x="356" y="52.8" class="st4 st3 st2">(indicated</tspan><tspan x="400.8" y="52.8" class="st4 st3 st2"> </tspan><tspan x="402.9" y="52.8" class="st4 st3 st2">by</tspan><tspan x="413.6" y="52.8" class="st4 st3 st2"> </tspan><tspan x="415.7" y="52.8" class="st4 st3 st2">two</tspan><tspan x="433.1" y="52.8" class="st4 st3 st2"> </tspan><tspan x="435.2" y="52.8" class="st4 st3 st2">vertical</tspan><tspan x="468" y="52.8" class="st4 st3 st2"> </tspan><tspan x="470.2" y="52.8" class="st4 st3 st2">dashed</tspan><tspan x="502.5" y="52.8" class="st4 st3 st2"> </tspan><tspan x="504.6" y="52.8" class="st4 st3 st2">lines),</tspan><tspan x="531.3" y="52.8" class="st4 st3 st2"> </tspan><tspan x="533.4" y="52.8" class="st4 st3 st2">where</tspan><tspan x="561.9" y="52.8" class="st4 st3 st2"> </tspan><tspan x="564" y="52.8" class="st4 st3 st2">candidate</tspan><tspan x="608.2" y="52.8" class="st4 st3 st2"> </tspan><tspan x="610.3" y="52.8" class="st4 st3 st2">matches </tspan><tspan x="0" y="66" class="st4 st3 st2">had a high probability of being misclassified.</tspan></text>
+<rect id="XMLID_778_" x="54.4" y="89.6" class="st6" width="683.9" height="341.1"/>
+<polygon id="XMLID_1_" class="st7" points="73.9,117.8 73.9,118.5 74.5,118.5 74.5,117.8 73.9,117.8 "/>
+<polygon id="XMLID_2_" class="st7" points="73.9,117.8 73.9,118.5 74.5,118.5 74.5,117.8 73.9,117.8 "/>
+<g id="XMLID_3_">
+	<text id="XMLID_398_" transform="matrix(1 0 0 1 173.5574 116.2389)"><tspan x="0" y="0" class="st1 st8">C</tspan><tspan x="5.1" y="0" class="st1 st8">u</tspan><tspan x="10.4" y="0" class="st1 st8">m</tspan><tspan x="18.7" y="0" class="st1 st8">u</tspan><tspan x="24" y="0" class="st1 st8">l</tspan><tspan x="26.3" y="0" class="st1 st8">a</tspan><tspan x="31.2" y="0" class="st1 st8">ti</tspan><tspan x="36.9" y="0" class="st1 st8">v</tspan><tspan x="41.5" y="0" class="st1 st8">e</tspan><tspan x="46.5" y="0" class="st1 st8"> </tspan><tspan x="48" y="0" class="st1 st8">p</tspan><tspan x="53.2" y="0" class="st1 st8">r</tspan><tspan x="56.7" y="0" class="st1 st8">o</tspan><tspan x="62" y="0" class="st1 st8">b</tspan><tspan x="67.2" y="0" class="st1 st8">a</tspan><tspan x="72.1" y="0" class="st1 st8">b</tspan><tspan x="77.2" y="0" class="st1 st8">ili</tspan><tspan x="84.1" y="0" class="st1 st8">t</tspan><tspan x="87.7" y="0" class="st1 st8">y</tspan><tspan x="92.4" y="0" class="st1 st8"> </tspan><tspan x="93.9" y="0" class="st1 st8">o</tspan><tspan x="99.1" y="0" class="st1 st8">f</tspan><tspan x="102.5" y="0" class="st1 st8"> </tspan><tspan x="104" y="0" class="st1 st8">o</tspan><tspan x="109.2" y="0" class="st1 st8">b</tspan><tspan x="114.4" y="0" class="st1 st8">s</tspan><tspan x="118.7" y="0" class="st1 st8">e</tspan><tspan x="123.6" y="0" class="st1 st8">r</tspan><tspan x="127.9" y="0" class="st1 st8">v</tspan><tspan x="132.5" y="0" class="st1 st8">i</tspan><tspan x="134.8" y="0" class="st1 st8">n</tspan><tspan x="140.1" y="0" class="st1 st8">g</tspan><tspan x="144.7" y="0" class="st1 st8"> </tspan><tspan x="146.2" y="0" class="st1 st8">t</tspan><tspan x="149.7" y="0" class="st1 st8">r</tspan><tspan x="153.3" y="0" class="st1 st8">u</tspan><tspan x="158.6" y="0" class="st1 st8">e</tspan><tspan x="163.6" y="0" class="st1 st8"> </tspan><tspan x="165.1" y="0" class="st1 st8">m</tspan><tspan x="173.4" y="0" class="st1 st8">a</tspan><tspan x="178.3" y="0" class="st1 st8">t</tspan><tspan x="181.9" y="0" class="st1 st8">c</tspan><tspan x="185.9" y="0" class="st1 st8">h</tspan></text>
+</g>
+<g id="XMLID_5_">
+	<defs>
+		<polygon id="XMLID_7_" points="85.3,123.6 107.6,123.6 107.6,386.7 85.3,386.7 85.3,123.6 		"/>
+	</defs>
+	<clipPath id="XMLID_92_">
+		<use xlink:href="#XMLID_7_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_6_" class="st9" x1="105.7" y1="355.6" x2="107.6" y2="355.6"/>
+</g>
+<g id="XMLID_8_">
+	<defs>
+		<polygon id="XMLID_10_" points="85.3,123.6 107.6,123.6 107.6,386.7 85.3,386.7 85.3,123.6 		"/>
+	</defs>
+	<clipPath id="XMLID_177_">
+		<use xlink:href="#XMLID_10_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_9_" class="st10" x1="105.7" y1="305.4" x2="107.6" y2="305.4"/>
+</g>
+<g id="XMLID_11_">
+	<defs>
+		<polygon id="XMLID_13_" points="85.3,123.6 107.6,123.6 107.6,386.7 85.3,386.7 85.3,123.6 		"/>
+	</defs>
+	<clipPath id="XMLID_178_">
+		<use xlink:href="#XMLID_13_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_12_" class="st11" x1="105.7" y1="255.1" x2="107.6" y2="255.1"/>
+</g>
+<g id="XMLID_14_">
+	<defs>
+		<polygon id="XMLID_16_" points="85.3,123.6 107.6,123.6 107.6,386.7 85.3,386.7 85.3,123.6 		"/>
+	</defs>
+	<clipPath id="XMLID_180_">
+		<use xlink:href="#XMLID_16_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_15_" class="st12" x1="105.7" y1="205.6" x2="107.6" y2="205.6"/>
+</g>
+<g id="XMLID_17_">
+	<defs>
+		<polygon id="XMLID_19_" points="85.3,123.6 107.6,123.6 107.6,386.7 85.3,386.7 85.3,123.6 		"/>
+	</defs>
+	<clipPath id="XMLID_181_">
+		<use xlink:href="#XMLID_19_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_18_" class="st13" x1="105.7" y1="155.3" x2="107.6" y2="155.3"/>
+</g>
+<g id="XMLID_20_">
+	<defs>
+		<polygon id="XMLID_22_" points="85.3,123.6 107.6,123.6 107.6,386.7 85.3,386.7 85.3,123.6 		"/>
+	</defs>
+	<clipPath id="XMLID_183_">
+		<use xlink:href="#XMLID_22_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_21_" class="st14" x1="103.8" y1="380.4" x2="107.6" y2="380.4"/>
+</g>
+<g id="XMLID_23_">
+	<defs>
+		<polygon id="XMLID_25_" points="85.3,123.6 107.6,123.6 107.6,386.7 85.3,386.7 85.3,123.6 		"/>
+	</defs>
+	<clipPath id="XMLID_184_">
+		<use xlink:href="#XMLID_25_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_24_" class="st15" x1="103.8" y1="330.2" x2="107.6" y2="330.2"/>
+</g>
+<g id="XMLID_26_">
+	<defs>
+		<polygon id="XMLID_28_" points="85.3,123.6 107.6,123.6 107.6,386.7 85.3,386.7 85.3,123.6 		"/>
+	</defs>
+	<clipPath id="XMLID_186_">
+		<use xlink:href="#XMLID_28_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_27_" class="st16" x1="103.8" y1="280.6" x2="107.6" y2="280.6"/>
+</g>
+<g id="XMLID_29_">
+	<defs>
+		<polygon id="XMLID_31_" points="85.3,123.6 107.6,123.6 107.6,386.7 85.3,386.7 85.3,123.6 		"/>
+	</defs>
+	<clipPath id="XMLID_187_">
+		<use xlink:href="#XMLID_31_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_30_" class="st17" x1="103.8" y1="230.4" x2="107.6" y2="230.4"/>
+</g>
+<g id="XMLID_32_">
+	<defs>
+		<polygon id="XMLID_34_" points="85.3,123.6 107.6,123.6 107.6,386.7 85.3,386.7 85.3,123.6 		"/>
+	</defs>
+	<clipPath id="XMLID_189_">
+		<use xlink:href="#XMLID_34_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_33_" class="st18" x1="103.8" y1="180.8" x2="107.6" y2="180.8"/>
+</g>
+<g id="XMLID_35_">
+	<defs>
+		<polygon id="XMLID_37_" points="85.3,123.6 107.6,123.6 107.6,386.7 85.3,386.7 85.3,123.6 		"/>
+	</defs>
+	<clipPath id="XMLID_240_">
+		<use xlink:href="#XMLID_37_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_36_" class="st19" x1="103.8" y1="130.6" x2="107.6" y2="130.6"/>
+</g>
+<g id="XMLID_38_">
+	<text id="XMLID_397_" transform="matrix(1 0 0 1 96.7251 381.566)" class="st4 st3 st8">0</text>
+</g>
+<g id="XMLID_40_">
+	<text id="XMLID_396_" transform="matrix(1 0 0 1 87.2539 333.3409)"><tspan x="0" y="0" class="st4 st3 st8">0</tspan><tspan x="5.5" y="0" class="st4 st3 st8">.</tspan><tspan x="7.5" y="0" class="st4 st3 st8">2</tspan></text>
+</g>
+<g id="XMLID_42_">
+	<text id="XMLID_395_" transform="matrix(1 0 0 1 87.2539 283.756)"><tspan x="0" y="0" class="st4 st3 st8">0</tspan><tspan x="5.5" y="0" class="st4 st3 st8">.</tspan><tspan x="7.5" y="0" class="st4 st3 st8">4</tspan></text>
+</g>
+<g id="XMLID_44_">
+	<text id="XMLID_394_" transform="matrix(1 0 0 1 87.2539 233.5318)"><tspan x="0" y="0" class="st4 st3 st8">0</tspan><tspan x="5.5" y="0" class="st4 st3 st8">.</tspan><tspan x="7.5" y="0" class="st4 st3 st8">6</tspan></text>
+</g>
+<g id="XMLID_46_">
+	<text id="XMLID_393_" transform="matrix(1 0 0 1 87.2539 183.9317)"><tspan x="0" y="0" class="st4 st3 st8">0</tspan><tspan x="5.5" y="0" class="st4 st3 st8">.</tspan><tspan x="7.5" y="0" class="st4 st3 st8">8</tspan></text>
+</g>
+<g id="XMLID_48_">
+	<text id="XMLID_392_" transform="matrix(1 0 0 1 96.7251 133.7081)" class="st4 st3 st8">1</text>
+</g>
+<polygon id="XMLID_50_" class="st7" points="107.3,130.2 107.3,380.1 413.4,380.1 413.4,130.2 107.3,130.2 "/>
+<polygon id="XMLID_51_" class="st20" points="107.3,134.5 127.7,132.9 148.1,132.5 168.5,132.4 188.9,132.4 209.3,132.4 
+	229.7,132.4 250.1,132.4 270.6,132.4 291,132.4 311.4,132.4 331.8,132.4 352.2,132.4 372.6,132.4 393,132.4 413.4,132.4 
+	413.4,380.1 107.3,380.1 "/>
+<g id="XMLID_52_">
+	<defs>
+		<polygon id="XMLID_53_" points="106.9,129.9 413.7,129.9 413.7,380.4 106.9,380.4 106.9,129.9 		"/>
+	</defs>
+	<clipPath id="XMLID_241_">
+		<use xlink:href="#XMLID_53_"  style="overflow:visible;"/>
+	</clipPath>
+</g>
+<g id="XMLID_54_">
+	<defs>
+		<polygon id="XMLID_56_" points="106.9,129.9 413.7,129.9 413.7,380.4 106.9,380.4 106.9,129.9 		"/>
+	</defs>
+	<clipPath id="XMLID_430_">
+		<use xlink:href="#XMLID_56_"  style="overflow:visible;"/>
+	</clipPath>
+	<polygon id="XMLID_55_" class="st21" points="107.3,176.8 127.7,169.3 148.1,167.9 168.5,167.5 188.9,167.5 209.3,167.4 
+		229.7,167.4 250.1,167.4 270.6,167.4 291,167.4 311.4,167.4 331.8,167.4 352.2,167.4 372.6,167.4 393,167.4 413.4,167.4 
+		413.4,380.1 107.3,380.1 	"/>
+</g>
+<g id="XMLID_57_">
+	<defs>
+		<polygon id="XMLID_58_" points="106.9,129.9 413.7,129.9 413.7,380.4 106.9,380.4 106.9,129.9 		"/>
+	</defs>
+	<clipPath id="XMLID_431_">
+		<use xlink:href="#XMLID_58_"  style="overflow:visible;"/>
+	</clipPath>
+</g>
+<polygon id="XMLID_59_" class="st22" points="107.3,188.6 127.7,182.1 148.1,181 168.5,180.8 188.9,180.7 209.3,180.7 229.7,180.7 
+	250.1,180.7 270.6,180.7 291,180.7 311.4,180.7 331.8,180.7 352.2,180.7 372.6,180.7 393,180.7 413.4,180.7 413.4,380.1 
+	107.3,380.1 "/>
+<g id="XMLID_60_">
+	<defs>
+		<polygon id="XMLID_61_" points="106.9,129.9 413.7,129.9 413.7,380.4 106.9,380.4 106.9,129.9 		"/>
+	</defs>
+	<clipPath id="XMLID_432_">
+		<use xlink:href="#XMLID_61_"  style="overflow:visible;"/>
+	</clipPath>
+</g>
+<polygon id="XMLID_62_" class="st23" points="107.3,248.3 127.7,239.4 148.1,238 168.5,237.7 188.9,237.7 209.3,237.7 229.7,237.7 
+	250.1,237.7 270.6,237.7 291,237.7 311.4,237.7 331.8,237.7 352.2,237.7 372.6,237.7 393,237.7 413.4,237.7 413.4,380.1 
+	107.3,380.1 "/>
+<g id="XMLID_63_">
+	<defs>
+		<polygon id="XMLID_64_" points="106.9,129.9 413.7,129.9 413.7,380.4 106.9,380.4 106.9,129.9 		"/>
+	</defs>
+	<clipPath id="XMLID_433_">
+		<use xlink:href="#XMLID_64_"  style="overflow:visible;"/>
+	</clipPath>
+</g>
+<polygon id="XMLID_65_" class="st24" points="107.3,286.4 127.7,274.1 148.1,270.5 168.5,269.5 188.9,269.1 209.3,269 229.7,269 
+	250.1,269 270.6,269 291,269 311.4,269 331.8,269 352.2,269 372.6,269 393,269 413.4,269 413.4,380.1 107.3,380.1 "/>
+<g id="XMLID_66_">
+	<defs>
+		<polygon id="XMLID_67_" points="106.9,129.9 413.7,129.9 413.7,380.4 106.9,380.4 106.9,129.9 		"/>
+	</defs>
+	<clipPath id="XMLID_434_">
+		<use xlink:href="#XMLID_67_"  style="overflow:visible;"/>
+	</clipPath>
+</g>
+<g id="XMLID_68_">
+	<defs>
+		<polygon id="XMLID_70_" points="106.9,129.9 413.7,129.9 413.7,380.4 106.9,380.4 106.9,129.9 		"/>
+	</defs>
+	<clipPath id="XMLID_435_">
+		<use xlink:href="#XMLID_70_"  style="overflow:visible;"/>
+	</clipPath>
+	<polygon id="XMLID_69_" class="st25" points="107.3,288 127.7,275.6 148.1,272.3 168.5,271.2 188.9,270.8 209.3,270.7 229.7,270.7 
+		250.1,270.6 270.6,270.6 291,270.6 311.4,270.6 331.8,270.6 352.2,270.6 372.6,270.6 393,270.6 413.4,270.6 413.4,380.1 
+		107.3,380.1 	"/>
+</g>
+<g id="XMLID_71_">
+	<defs>
+		<polygon id="XMLID_72_" points="106.9,129.9 413.7,129.9 413.7,380.4 106.9,380.4 106.9,129.9 		"/>
+	</defs>
+	<clipPath id="XMLID_436_">
+		<use xlink:href="#XMLID_72_"  style="overflow:visible;"/>
+	</clipPath>
+</g>
+<polygon id="XMLID_73_" class="st26" points="107.3,370.3 127.7,368.6 148.1,368.3 168.5,368.3 188.9,368.2 209.3,368.2 
+	229.7,368.2 250.1,368.2 270.6,368.2 291,368.2 311.4,368.2 331.8,368.2 352.2,368.2 372.6,368.2 393,368.2 413.4,368.2 
+	413.4,380.1 107.3,380.1 "/>
+<g id="XMLID_74_">
+	<defs>
+		<polygon id="XMLID_75_" points="106.9,129.9 413.7,129.9 413.7,380.4 106.9,380.4 106.9,129.9 		"/>
+	</defs>
+	<clipPath id="XMLID_437_">
+		<use xlink:href="#XMLID_75_"  style="overflow:visible;"/>
+	</clipPath>
+</g>
+<polyline id="XMLID_76_" class="st27" points="107.6,380.4 107.6,130.6 413.7,130.6 413.7,380.4 107.6,380.4 "/>
+<g id="XMLID_77_">
+	<defs>
+		<polygon id="XMLID_79_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_438_">
+		<use xlink:href="#XMLID_79_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_78_" class="st28" x1="117.7" y1="380.4" x2="117.7" y2="382.3"/>
+</g>
+<g id="XMLID_80_">
+	<defs>
+		<polygon id="XMLID_82_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_439_">
+		<use xlink:href="#XMLID_82_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_81_" class="st29" x1="138.1" y1="380.4" x2="138.1" y2="382.3"/>
+</g>
+<g id="XMLID_83_">
+	<defs>
+		<polygon id="XMLID_91_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_440_">
+		<use xlink:href="#XMLID_91_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_89_" class="st30" x1="158.4" y1="380.4" x2="158.4" y2="382.3"/>
+</g>
+<g id="XMLID_93_">
+	<defs>
+		<polygon id="XMLID_95_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_441_">
+		<use xlink:href="#XMLID_95_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_94_" class="st31" x1="178.7" y1="380.4" x2="178.7" y2="382.3"/>
+</g>
+<g id="XMLID_96_">
+	<defs>
+		<polygon id="XMLID_98_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_442_">
+		<use xlink:href="#XMLID_98_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_97_" class="st32" x1="199.7" y1="380.4" x2="199.7" y2="382.3"/>
+</g>
+<g id="XMLID_99_">
+	<defs>
+		<polygon id="XMLID_101_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_443_">
+		<use xlink:href="#XMLID_101_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_100_" class="st33" x1="220" y1="380.4" x2="220" y2="382.3"/>
+</g>
+<g id="XMLID_102_">
+	<defs>
+		<polygon id="XMLID_104_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_444_">
+		<use xlink:href="#XMLID_104_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_103_" class="st34" x1="240.3" y1="380.4" x2="240.3" y2="382.3"/>
+</g>
+<g id="XMLID_105_">
+	<defs>
+		<polygon id="XMLID_107_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_445_">
+		<use xlink:href="#XMLID_107_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_106_" class="st35" x1="260.7" y1="380.4" x2="260.7" y2="382.3"/>
+</g>
+<g id="XMLID_108_">
+	<defs>
+		<polygon id="XMLID_110_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_446_">
+		<use xlink:href="#XMLID_110_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_109_" class="st36" x1="281" y1="380.4" x2="281" y2="382.3"/>
+</g>
+<g id="XMLID_111_">
+	<defs>
+		<polygon id="XMLID_113_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_447_">
+		<use xlink:href="#XMLID_113_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_112_" class="st37" x1="301.3" y1="380.4" x2="301.3" y2="382.3"/>
+</g>
+<g id="XMLID_114_">
+	<defs>
+		<polygon id="XMLID_116_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_448_">
+		<use xlink:href="#XMLID_116_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_115_" class="st38" x1="321.6" y1="380.4" x2="321.6" y2="382.3"/>
+</g>
+<g id="XMLID_117_">
+	<defs>
+		<polygon id="XMLID_119_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_449_">
+		<use xlink:href="#XMLID_119_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_118_" class="st39" x1="342.6" y1="380.4" x2="342.6" y2="382.3"/>
+</g>
+<g id="XMLID_120_">
+	<defs>
+		<polygon id="XMLID_122_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_450_">
+		<use xlink:href="#XMLID_122_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_121_" class="st40" x1="362.9" y1="380.4" x2="362.9" y2="382.3"/>
+</g>
+<g id="XMLID_123_">
+	<defs>
+		<polygon id="XMLID_125_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_451_">
+		<use xlink:href="#XMLID_125_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_124_" class="st41" x1="383.2" y1="380.4" x2="383.2" y2="382.3"/>
+</g>
+<g id="XMLID_126_">
+	<defs>
+		<polygon id="XMLID_128_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_452_">
+		<use xlink:href="#XMLID_128_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_127_" class="st42" x1="403.6" y1="380.4" x2="403.6" y2="382.3"/>
+</g>
+<g id="XMLID_129_">
+	<defs>
+		<polygon id="XMLID_131_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_453_">
+		<use xlink:href="#XMLID_131_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_130_" class="st43" x1="107.6" y1="380.4" x2="107.6" y2="384.2"/>
+</g>
+<g id="XMLID_132_">
+	<defs>
+		<polygon id="XMLID_134_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_454_">
+		<use xlink:href="#XMLID_134_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_133_" class="st44" x1="127.9" y1="380.4" x2="127.9" y2="384.2"/>
+</g>
+<g id="XMLID_135_">
+	<defs>
+		<polygon id="XMLID_137_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_455_">
+		<use xlink:href="#XMLID_137_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_136_" class="st45" x1="148.2" y1="380.4" x2="148.2" y2="384.2"/>
+</g>
+<g id="XMLID_138_">
+	<defs>
+		<polygon id="XMLID_140_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_456_">
+		<use xlink:href="#XMLID_140_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_139_" class="st46" x1="168.6" y1="380.4" x2="168.6" y2="384.2"/>
+</g>
+<g id="XMLID_141_">
+	<defs>
+		<polygon id="XMLID_143_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_457_">
+		<use xlink:href="#XMLID_143_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_142_" class="st47" x1="189.5" y1="380.4" x2="189.5" y2="384.2"/>
+</g>
+<g id="XMLID_144_">
+	<defs>
+		<polygon id="XMLID_146_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_458_">
+		<use xlink:href="#XMLID_146_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_145_" class="st48" x1="209.8" y1="380.4" x2="209.8" y2="384.2"/>
+</g>
+<g id="XMLID_147_">
+	<defs>
+		<polygon id="XMLID_149_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_459_">
+		<use xlink:href="#XMLID_149_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_148_" class="st49" x1="230.2" y1="380.4" x2="230.2" y2="384.2"/>
+</g>
+<g id="XMLID_150_">
+	<defs>
+		<polygon id="XMLID_152_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_460_">
+		<use xlink:href="#XMLID_152_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_151_" class="st50" x1="250.5" y1="380.4" x2="250.5" y2="384.2"/>
+</g>
+<g id="XMLID_153_">
+	<defs>
+		<polygon id="XMLID_155_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_461_">
+		<use xlink:href="#XMLID_155_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_154_" class="st51" x1="270.8" y1="380.4" x2="270.8" y2="384.2"/>
+</g>
+<g id="XMLID_156_">
+	<defs>
+		<polygon id="XMLID_158_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_462_">
+		<use xlink:href="#XMLID_158_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_157_" class="st52" x1="291.1" y1="380.4" x2="291.1" y2="384.2"/>
+</g>
+<g id="XMLID_159_">
+	<defs>
+		<polygon id="XMLID_161_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_463_">
+		<use xlink:href="#XMLID_161_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_160_" class="st53" x1="311.5" y1="380.4" x2="311.5" y2="384.2"/>
+</g>
+<g id="XMLID_162_">
+	<defs>
+		<polygon id="XMLID_164_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_464_">
+		<use xlink:href="#XMLID_164_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_163_" class="st54" x1="331.8" y1="380.4" x2="331.8" y2="384.2"/>
+</g>
+<g id="XMLID_165_">
+	<defs>
+		<polygon id="XMLID_167_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_465_">
+		<use xlink:href="#XMLID_167_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_166_" class="st55" x1="352.8" y1="380.4" x2="352.8" y2="384.2"/>
+</g>
+<g id="XMLID_168_">
+	<defs>
+		<polygon id="XMLID_170_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_466_">
+		<use xlink:href="#XMLID_170_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_169_" class="st56" x1="373.1" y1="380.4" x2="373.1" y2="384.2"/>
+</g>
+<g id="XMLID_171_">
+	<defs>
+		<polygon id="XMLID_173_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_467_">
+		<use xlink:href="#XMLID_173_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_172_" class="st57" x1="393.4" y1="380.4" x2="393.4" y2="384.2"/>
+</g>
+<g id="XMLID_174_">
+	<defs>
+		<polygon id="XMLID_176_" points="100.6,379.7 420.1,379.7 420.1,394.4 100.6,394.4 100.6,379.7 		"/>
+	</defs>
+	<clipPath id="XMLID_468_">
+		<use xlink:href="#XMLID_176_"  style="overflow:visible;"/>
+	</clipPath>
+	<line id="XMLID_175_" class="st58" x1="413.7" y1="380.4" x2="413.7" y2="384.2"/>
+</g>
+<g id="XMLID_179_">
+	<text id="XMLID_391_" transform="matrix(1 0 0 1 103.2554 394.1051)" class="st4 st3 st8">1</text>
+</g>
+<g id="XMLID_182_">
+	<text id="XMLID_389_" transform="matrix(1 0 0 1 123.5771 394.1051)" class="st4 st3 st8">2</text>
+</g>
+<g id="XMLID_185_">
+	<text id="XMLID_363_" transform="matrix(1 0 0 1 143.8857 394.1051)" class="st4 st3 st8">3</text>
+</g>
+<g id="XMLID_188_">
+	<text id="XMLID_361_" transform="matrix(1 0 0 1 164.2241 394.1051)" class="st4 st3 st8">4</text>
+</g>
+<g id="XMLID_191_">
+	<text id="XMLID_358_" transform="matrix(1 0 0 1 185.1699 394.1051)" class="st4 st3 st8">5</text>
+</g>
+<g id="XMLID_194_">
+	<text id="XMLID_263_" transform="matrix(1 0 0 1 205.4932 394.1051)" class="st4 st3 st8">6</text>
+</g>
+<g id="XMLID_197_">
+	<text id="XMLID_261_" transform="matrix(1 0 0 1 225.8477 394.1051)" class="st4 st3 st8">7</text>
+</g>
+<g id="XMLID_200_">
+	<text id="XMLID_260_" transform="matrix(1 0 0 1 246.1709 394.1051)" class="st4 st3 st8">8</text>
+</g>
+<g id="XMLID_203_">
+	<text id="XMLID_255_" transform="matrix(1 0 0 1 266.4937 394.1051)" class="st4 st3 st8">9</text>
+</g>
+<g id="XMLID_206_">
+	<text id="XMLID_250_" transform="matrix(1 0 0 1 283.6406 394.1051)"><tspan x="0" y="0" class="st4 st3 st8">1</tspan><tspan x="5.5" y="0" class="st4 st3 st8">0</tspan></text>
+</g>
+<g id="XMLID_209_">
+	<text id="XMLID_245_" transform="matrix(1 0 0 1 303.9629 394.1051)"><tspan x="0" y="0" class="st4 st3 st8">1</tspan><tspan x="5.5" y="0" class="st4 st3 st8">1</tspan></text>
+</g>
+<g id="XMLID_212_">
+	<text id="XMLID_220_" transform="matrix(1 0 0 1 324.2856 394.1051)"><tspan x="0" y="0" class="st4 st3 st8">1</tspan><tspan x="5.5" y="0" class="st4 st3 st8">2</tspan></text>
+</g>
+<g id="XMLID_215_">
+	<text id="XMLID_364_" transform="matrix(1 0 0 1 345.2632 394.1051)"><tspan x="0" y="0" class="st4 st3 st8">1</tspan><tspan x="5.5" y="0" class="st4 st3 st8">3</tspan></text>
+</g>
+<g id="XMLID_218_">
+	<text id="XMLID_416_" transform="matrix(1 0 0 1 365.5864 394.1051)"><tspan x="0" y="0" class="st4 st3 st8">1</tspan><tspan x="5.5" y="0" class="st4 st3 st8">4</tspan></text>
+</g>
+<g id="XMLID_221_">
+	<text id="XMLID_417_" transform="matrix(1 0 0 1 385.895 394.1051)"><tspan x="0" y="0" class="st4 st3 st8">1</tspan><tspan x="5.5" y="0" class="st4 st3 st8">5</tspan></text>
+</g>
+<g id="XMLID_224_">
+	<text id="XMLID_418_" transform="matrix(1 0 0 1 406.2354 394.1051)"><tspan x="0" y="0" class="st4 st3 st8">1</tspan><tspan x="5.5" y="0" class="st4 st3 st8">6</tspan></text>
+</g>
+<g id="XMLID_227_">
+	<text id="XMLID_205_" transform="matrix(1 0 0 1 172.1958 414.7213)" class="st3 st8">True match rank (searching unknown persons)</text>
+</g>
+<g id="XMLID_228_">
+	<polygon id="XMLID_229_" class="st20" points="416.6,132 416.6,139 429.9,139 429.9,132 416.6,132 	"/>
+	<g id="XMLID_232_">
+		<text id="XMLID_419_" transform="matrix(1 0 0 1 433.9453 139.86)" class="st59 st3 st8">Two parents</text>
+	</g>
+</g>
+<g id="XMLID_233_">
+	<polygon id="XMLID_234_" class="st60" points="416.6,166.8 416.6,173.7 429.9,173.7 429.9,166.8 416.6,166.8 	"/>
+	<g id="XMLID_237_">
+		<text id="XMLID_420_" transform="matrix(1 0 0 1 433.9453 173.4269)" class="st59 st3 st8">Child and spouse</text>
+	</g>
+</g>
+<g id="XMLID_238_">
+	<polygon id="XMLID_239_" class="st22" points="416.6,181.6 416.6,188.6 429.9,188.6 429.9,181.6 416.6,181.6 	"/>
+	<g id="XMLID_242_">
+		<text id="XMLID_421_" transform="matrix(1 0 0 1 433.9453 189.5006)" class="st4 st3 st8">Two siblings</text>
+	</g>
+</g>
+<g id="XMLID_243_">
+	<polygon id="XMLID_244_" class="st23" points="416.6,237.7 416.6,244.6 429.9,244.6 429.9,237.7 416.6,237.7 	"/>
+	<g id="XMLID_247_">
+		<text id="XMLID_422_" transform="matrix(1 0 0 1 433.9453 245.5436)" class="st4 st3 st8">One sibling</text>
+	</g>
+</g>
+<g id="XMLID_248_">
+	<polygon id="XMLID_249_" class="st24" points="416.6,269.1 416.6,276.1 429.9,276.1 429.9,269.1 416.6,269.1 	"/>
+	<g id="XMLID_252_">
+		<text id="XMLID_423_" transform="matrix(1 0 0 1 433.9453 275.7921)" class="st4 st3 st8">One child</text>
+	</g>
+</g>
+<g id="XMLID_253_">
+	<polygon id="XMLID_254_" class="st61" points="416.6,279.3 416.6,286.3 429.9,286.3 429.9,279.3 416.6,279.3 	"/>
+	<g id="XMLID_257_">
+		<text id="XMLID_424_" transform="matrix(1 0 0 1 433.9453 287.213)" class="st4 st3 st8">One parent</text>
+	</g>
+</g>
+<g id="XMLID_258_">
+	<polygon id="XMLID_259_" class="st26" points="416.6,367.9 416.6,374.9 429.9,374.9 429.9,367.9 416.6,367.9 	"/>
+	<g id="XMLID_262_">
+		<text id="XMLID_427_" transform="matrix(1 0 0 1 433.9453 375.817)" class="st4 st3 st8">Half-sibling</text>
+	</g>
+</g>
+<g id="XMLID_265_">
+	<text id="XMLID_429_" transform="matrix(1 0 0 1 530.9913 116.2389)" class="st1 st8">Score distribution by pedigree structure</text>
+</g>
+<g id="XMLID_266_">
+	<defs>
+		<rect id="XMLID_291_" x="505.1" y="381.5" width="214.4" height="10.6"/>
+	</defs>
+	<clipPath id="XMLID_469_">
+		<use xlink:href="#XMLID_291_"  style="overflow:visible;"/>
+	</clipPath>
+	<path id="XMLID_267_" class="st62" d="M525.3,381.5v1.4 M545.9,381.5v1.4 M566.1,381.5v1.4 M586.8,381.5v1.4 M607,381.5v1.4
+		 M627.7,381.5v1.4 M648.3,381.5v1.4 M668.5,381.5v1.4 M689.2,381.5v1.4 M709.4,381.5v1.4 M515.2,381.5v2.9 M535.4,381.5v2.9
+		 M556,381.5v2.9 M576.2,381.5v2.9 M596.9,381.5v2.9 M617.6,381.5v2.9 M637.8,381.5v2.9 M658.4,381.5v2.9 M678.6,381.5v2.9
+		 M699.3,381.5v2.9"/>
+	<path id="XMLID_288_" class="st63" d="M566.1,381.5v2.9 M596.9,381.5v2.9"/>
+</g>
+<g id="XMLID_292_">
+	<defs>
+		<rect id="XMLID_296_" x="509.9" y="130.6" width="204.8" height="250.9"/>
+	</defs>
+	<clipPath id="XMLID_470_">
+		<use xlink:href="#XMLID_296_"  style="overflow:visible;"/>
+	</clipPath>
+	<path id="XMLID_293_" class="st64" d="M596.9,381.5V130.6 M566.1,381.5V130.6"/>
+</g>
+<path id="XMLID_297_" class="st65" d="M656.5,150.3v23.1h-29.8v-23.1H656.5 M699.8,161.8h-43.3 M594,161.8h32.7 M594,150.3v23.1
+	 M699.8,150.3v23.1 M642.6,150.3v23.1"/>
+<path id="XMLID_304_" class="st66" d="M712.2,161.9c0,0.5-0.2,0.9-0.6,1.1c-0.4,0.2-0.9,0.2-1.3,0c-0.4-0.2-0.6-0.6-0.6-1.1
+	c0-0.5,0.2-0.9,0.6-1.1c0.4-0.2,0.9-0.2,1.3,0S712.2,161.5,712.2,161.9L712.2,161.9z"/>
+<path id="XMLID_305_" class="st66" d="M580.5,161.9c0,0.5-0.2,0.9-0.6,1.1c-0.4,0.2-0.9,0.2-1.3,0c-0.4-0.2-0.6-0.6-0.6-1.1
+	c0-0.5,0.2-0.9,0.6-1.1c0.4-0.2,0.9-0.2,1.3,0C580.2,161,580.5,161.5,580.5,161.9L580.5,161.9z"/>
+<path id="XMLID_306_" class="st67" d="M608.9,181.5v23.1h-15.9v-23.1H608.9 M629.6,193h-20.7 M571.9,193h21.2 M571.9,181.5v23.1
+	 M629.6,181.5v23.1 M601.2,181.5v23.1"/>
+<path id="XMLID_313_" class="st66" d="M639.9,193.3c0,0.5-0.2,0.9-0.6,1.1c-0.4,0.2-0.9,0.2-1.3,0c-0.4-0.2-0.6-0.6-0.6-1.1
+	c0-0.5,0.2-0.9,0.6-1.1c0.4-0.2,0.9-0.2,1.3,0C639.7,192.4,639.9,192.8,639.9,193.3L639.9,193.3z"/>
+<path id="XMLID_314_" class="st68" d="M610.8,213.2v23.1H583v-23.1H610.8 M647.4,224.8h-36.5 M545.9,224.8h37 M545.9,213.2v23.1
+	 M647.4,213.2v23.1 M595.9,213.2v23.1"/>
+<path id="XMLID_321_" class="st66" d="M656.8,224.7c0,0.5-0.2,0.9-0.6,1.1c-0.4,0.2-0.9,0.2-1.3,0c-0.4-0.2-0.6-0.6-0.6-1.1
+	c0-0.5,0.2-0.9,0.6-1.1c0.4-0.2,0.9-0.2,1.3,0C656.6,223.8,656.8,224.2,656.8,224.7L656.8,224.7z"/>
+<path id="XMLID_322_" class="st66" d="M654.8,224.7c0,0.5-0.2,0.9-0.6,1.1c-0.4,0.2-0.9,0.2-1.3,0c-0.4-0.2-0.6-0.6-0.6-1.1
+	c0-0.5,0.2-0.9,0.6-1.1c0.4-0.2,0.9-0.2,1.3,0C654.6,223.8,654.8,224.2,654.8,224.7L654.8,224.7z"/>
+<path id="XMLID_323_" class="st66" d="M654.2,224.7c0,0.5-0.2,0.9-0.6,1.1c-0.4,0.2-0.9,0.2-1.3,0c-0.4-0.2-0.6-0.6-0.6-1.1
+	c0-0.5,0.2-0.9,0.6-1.1c0.4-0.2,0.9-0.2,1.3,0C653.9,223.8,654.2,224.2,654.2,224.7L654.2,224.7z"/>
+<path id="XMLID_324_" class="st66" d="M540.8,224.7c0,0.5-0.2,0.9-0.6,1.1c-0.4,0.2-0.9,0.2-1.3,0c-0.4-0.2-0.6-0.6-0.6-1.1
+	c0-0.5,0.2-0.9,0.6-1.1c0.4-0.2,0.9-0.2,1.3,0C540.6,223.8,540.8,224.2,540.8,224.7L540.8,224.7z"/>
+<path id="XMLID_325_" class="st66" d="M533,224.7c0,0.5-0.2,0.9-0.6,1.1c-0.4,0.2-0.9,0.2-1.3,0s-0.6-0.6-0.6-1.1
+	c0-0.5,0.2-0.9,0.6-1.1c0.4-0.2,0.9-0.2,1.3,0S533,224.2,533,224.7L533,224.7z"/>
+<path id="XMLID_326_" class="st69" d="M583.9,244.5v23.1h-26v-23.1H583.9 M622.4,256h-38.5 M523.8,256H558 M523.8,244.5v23.1
+	 M622.4,244.5v23.1 M570.9,244.5v23.1"/>
+<path id="XMLID_333_" class="st70" d="M588.3,275.7v23.1h-15.4v-23.1H588.3 M609.4,287.3h-21.2 M551.7,287.3h21.2 M551.7,275.7v23.1
+	 M609.4,275.7v23.1 M581,275.7v23.1"/>
+<path id="XMLID_340_" class="st66" d="M550.3,287.4c0,0.5-0.2,0.9-0.6,1.1c-0.4,0.2-0.9,0.2-1.3,0c-0.4-0.2-0.6-0.6-0.6-1.1
+	c0-0.5,0.2-0.9,0.6-1.1c0.4-0.2,0.9-0.2,1.3,0C550.1,286.5,550.3,286.9,550.3,287.4L550.3,287.4z"/>
+<path id="XMLID_341_" class="st66" d="M549.6,287.4c0,0.5-0.2,0.9-0.6,1.1c-0.4,0.2-0.9,0.2-1.3,0c-0.4-0.2-0.6-0.6-0.6-1.1
+	c0-0.5,0.2-0.9,0.6-1.1c0.4-0.2,0.9-0.2,1.3,0C549.3,286.5,549.6,286.9,549.6,287.4L549.6,287.4z"/>
+<path id="XMLID_342_" class="st66" d="M548.4,287.4c0,0.5-0.2,0.9-0.6,1.1c-0.4,0.2-0.9,0.2-1.3,0c-0.4-0.2-0.6-0.6-0.6-1.1
+	c0-0.5,0.2-0.9,0.6-1.1c0.4-0.2,0.9-0.2,1.3,0C548.2,286.5,548.4,286.9,548.4,287.4L548.4,287.4z"/>
+<path id="XMLID_343_" class="st70" d="M588.7,307v23.1h-15.9V307H588.7 M608,318.5h-19.2 M549.8,318.5h23.1 M549.8,307v23.1
+	 M608,307v23.1 M579.6,307v23.1"/>
+<path id="XMLID_350_" class="st71" d="M554.1,338.7v23.1h-14.9v-23.1H554.1 M576.2,350.2h-22.1 M518.1,350.2h21.2 M518.1,338.7v23.1
+	 M576.2,338.7v23.1 M547.4,338.7v23.1"/>
+<polyline id="XMLID_357_" class="st72" points="509.9,381.5 509.9,130.6 714.7,130.6 714.7,381.5 509.9,381.5 "/>
+<g id="XMLID_360_">
+	<text id="XMLID_428_" transform="matrix(1 0 0 1 566.916 414.7223)" class="st3 st8">Likelihood ratio score</text>
+</g>
+<rect id="XMLID_366_" x="63.9" y="185.1" class="st0" width="20.3" height="152.1"/>
+<text id="XMLID_412_" transform="matrix(0 -1 1 0 70.6318 307.3282)" class="st3 st8">Cumulative probability</text>
+<rect id="XMLID_367_" x="505.1" y="386.7" class="st0" width="19.9" height="14.8"/>
+<text id="XMLID_365_" transform="matrix(1 0 0 1 510.9541 393.4752)" class="st4 st3 st8">-2</text>
+<rect id="XMLID_369_" x="525.5" y="386.8" class="st0" width="19.9" height="14.8"/>
+<text id="XMLID_368_" transform="matrix(1 0 0 1 532.8896 393.61)" class="st4 st3 st8">0</text>
+<rect id="XMLID_371_" x="545.9" y="387" class="st0" width="19.9" height="14.8"/>
+<text id="XMLID_370_" transform="matrix(1 0 0 1 553.2949 393.7457)" class="st4 st3 st8">2</text>
+<rect id="XMLID_373_" x="566.3" y="387.1" class="st0" width="19.9" height="14.8"/>
+<text id="XMLID_372_" transform="matrix(1 0 0 1 573.7002 393.8805)" class="st4 st3 st8">4</text>
+<rect id="XMLID_375_" x="586.7" y="387.2" class="st0" width="19.9" height="14.8"/>
+<text id="XMLID_374_" transform="matrix(1 0 0 1 594.1055 394.0152)" class="st4 st3 st8">6</text>
+<rect id="XMLID_377_" x="607.1" y="387.4" class="st0" width="19.9" height="14.8"/>
+<text id="XMLID_376_" transform="matrix(1 0 0 1 614.5098 394.151)" class="st4 st3 st8">8</text>
+<rect id="XMLID_379_" x="627.5" y="387.8" class="st0" width="19.9" height="14.8"/>
+<text id="XMLID_378_" transform="matrix(1 0 0 1 632.3809 394.5562)" class="st4 st3 st8">10</text>
+<rect id="XMLID_381_" x="647.9" y="387.5" class="st0" width="19.9" height="14.8"/>
+<text id="XMLID_380_" transform="matrix(1 0 0 1 652.7852 394.2857)" class="st4 st3 st8">12</text>
+<rect id="XMLID_383_" x="668.3" y="387.6" class="st0" width="19.9" height="14.8"/>
+<text id="XMLID_382_" transform="matrix(1 0 0 1 673.1904 394.4205)" class="st4 st3 st8">14</text>
+<rect id="XMLID_385_" x="688.7" y="387.8" class="st0" width="19.9" height="14.8"/>
+<text id="XMLID_384_" transform="matrix(1 0 0 1 693.5957 394.5562)" class="st4 st3 st8">16</text>
+<rect id="XMLID_401_" x="64.1" y="108.3" class="st0" width="14.1" height="9.4"/>
+<text id="XMLID_400_" transform="matrix(1 0 0 1 64.1089 115.7712)" class="st1 st2">A</text>
+<rect id="XMLID_399_" x="507" y="108.3" class="st0" width="14.1" height="9.4"/>
+<text id="XMLID_426_" transform="matrix(1 0 0 1 506.9653 115.7721)" class="st1 st2">B</text>
+</svg>
