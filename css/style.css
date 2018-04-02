@@ -408,21 +408,32 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 /*------------------------Learn More Styles-------------------*/
-.fixed-top-2{
-	margin-top: 60px;
-	height: 50px;
-	background-color: #333;
-	color: #fff;
+
+.active2{
+    color: #eee;
+    background-color: transparent!important;
+    border-color: #dee2e6 #dee2e6 #fff;
+    display: block;
 }
+
+.fixed-top-2 {
+    margin-top: 70px;
+    height: 60px;
+    background-color: #A23814;
+    color: #fff;
+}
+
 #learn header{
 	height: 700px;
 	width: 100%;
 	background-color: #eee;
 	padding-top: 50px;
-	background-image: url(../img/learnBG.png);
+	background-image: url(../img/learnHeaderBG.png);
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+
 
 a {
     color: #fff;
@@ -452,7 +463,7 @@ a:hover{
 }
 
 #section1{
-	padding-top: 50px;
+	padding-top: 100px;
 	color:#fff;
 	text-align: center;
 	min-height: 600px;
@@ -562,7 +573,6 @@ a:hover{
 /*-------Section 2 Styles ------*/
 #section2 {
     padding-top: 50px;
-    max-width: 1280px;
     margin-bottom: 150px;
 }
 
@@ -573,13 +583,15 @@ a:hover{
 	background:#eee;
 }
 
-#section2 h3{
-	padding-top: 20px;
+#section2 h3 {
+    padding-top: 20px;
+    font-size: 3rem;
 }
 
 #section2 p{
 	padding-right: 20px;
-	padding-top: 50px;
+	padding-top: 20px;
+	font-size:25px;
 }
 
 .padding-none{
@@ -613,6 +625,7 @@ h2.h2Sub{
 	box-sizing: border-box;
 
 }
+
 
 #section3 .tabs-wrapper > div.tabs-inner > .nav-tabs {
 	border: none;
@@ -704,9 +717,9 @@ h2.h2Sub{
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: .25rem;
+    border-radius: 10px;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-	width: 250px;
+    width: 300px;
 }
 
 /*---Section5 Styles-----*/
@@ -731,8 +744,8 @@ h2.h2Sub{
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 10px;
-    min-height: 850px;
-    box-shadow:4px 4px rgba(0,0,0,0.2);
+    min-height: 700px;
+    box-shadow: 4px 4px rgba(0,0,0,0.2);
 }
 .card-title{
 	text-align: center;
@@ -760,6 +773,16 @@ h2.h2Sub{
 
 /*---section6 styles---*/
 
+#whatsNew header{
+	height: 700px;
+	width: 100%;
+	background-color: #eee;
+	padding-top: 50px;
+	background-image: url(../img/whatsNew.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 #section6{
 	width: 100%;
 	padding-top: 100px;
@@ -778,9 +801,7 @@ div.bhoechie-tab-container{
 
   margin-top: 20px;
   margin-left:0px;
-  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-  box-shadow: 0 6px 12px rgba(0,0,0,.175);
-  -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+
   background-clip: padding-box;
   opacity: 0.97;
   filter: alpha(opacity=97);
@@ -810,7 +831,7 @@ div.bhoechie-tab-menu div.list-group>a:last-child{
 div.bhoechie-tab-menu div.list-group>a.active,
 div.bhoechie-tab-menu div.list-group>a.active .glyphicon,
 div.bhoechie-tab-menu div.list-group>a.active .fa{
-  background-color: #333;
+  background-color: #953412;
   background-image: #333;
   color: #ffffff;
 }
@@ -862,20 +883,19 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 #subNavPanes a {
     color: #eee!important;
     text-decoration: none;
-
     -webkit-text-decoration-skip: objects;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .tab-img{
-	max-height: 400px;
-
+	height: 600px;
+	width: 800px;
 }
+
 .tab-img2{
-	max-height: 400px;
-
+	height: 600px;
+	width: 600px;
 }
-
 
 
 #subNavPanes .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {

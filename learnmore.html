@@ -47,7 +47,7 @@
   <div class="navbar-collapse collapse justify-content-left" id="navbar2">
      <ul class="nav nav-tabs" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" href="#overview" role="tab" data-toggle="tab">Overview</a>
+        <a class="nav-link active2" href="#overview" role="tab" data-toggle="tab">Overview</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#gettingStarted" role="tab" data-toggle="tab">Getting Started</a>
@@ -89,27 +89,20 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-     <h2>Get all the details you need <span class="no-color">to make the right match</span></h2>
-        <div class="row">
-          <div class="col-md-6">
-          <h3 class="text-left">Missing person is a parent</h3>
-          <img class="img-fluid figure3" src="./img/figure3.png">
-          <p class="lite text-left">Table 1. Example Scenario 2. For a missing parent with only a child genotyped,confidence intervals for false (random) matches and true matches overlap.</p>
-          </div>
-          <div class="col-md-6 figure3-text-wrapper">
-            <p class="text-left">In Scenario 2, the confidence interval for true matches strongly
-            overlaps the confidence interval for unrelated matches. As a result,
-            the AI will lower its filtering thresholds accordingly, potentially
-            returning us a greater proportion of false positive matches. In a given
-            dataset, for every missing person in every pedigree, the AI calculates
-            what to expect in each error class: true positives (TP), false negatives
-            (FN), and false positives (FP).</p>
-
-            <p class="text-left"></p>
-          </div>
-        </div>
+        <h2>Get all the details you need <span class="no-color">to make the right match</span></h2>
       </div>
     </div>
+        <div class="row">
+          <div class="col-md-6 justify-content-center">
+            <img src="./img/ConfidenceInterval.png" class="img-fluid" alt="score ranks">
+
+          </div>
+          <div class="col-md-6 justify-content-center">
+            <img src="./img/ErrorRate.png" class="img-fluid" alt="score ranks">
+
+          </div>
+       
+      </div>
       <div class="row figure3-col4-wrapper">
         <div class="col-md-4">
           <h2>Score and rank</h2>
@@ -127,7 +120,7 @@
           <p>Know your odds of making an incorrect match</p>
         </div>
       </div>
-  </div>
+    </div>
 </section>
 
 
@@ -166,12 +159,7 @@
                             <h4 class="card-title">Complex relationships </h4>
                             <!--Text-->
                             <p class="card-text">In addition to the scenarios presented above, we have also developeda pedigree mapping engine (and corresponding naming convention) that can detect consanguineous relationships.</p>
-                            <p>By detecting how different pedigrees in a dataset may be connected
-                            to each other through missing individuals, the AI can display
-                            individuals and pedigrees as an informative network map. Organizing
-                            pedigrees and individuals based on their "connectedness" allows
-                            them to be intuitively visualized and provides context to the AI's
-                            decisions.</p>
+                         
                         </div>
                         <!--/.Card content-->
         
@@ -285,6 +273,26 @@
 
 <!-- getting started -->
   <div role="tabpanel" class="tab-pane fade in" id="gettingStarted">
+    <header>
+        <a href="#" id="scroll" style="display: none;"><span></span></a>
+       <!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="container">
+    <div class="jumbotron">
+      <div class="row">
+         <div class="col-md-6">
+          <img class="img-fluid ipad2" src="./img/ipad.png" >
+       
+        </div>
+         <div class="col-md-6">
+        <h1 class="display-3">Load, Score &amp; Rank, Characterize and Optimize</h1>
+        <p><span class="subHead">The Bloodhound AI engine can be trained and tuned to deliver results</span></p> <p>Although the AI is able to continuously move across iterations, the
+           interface was designed to gate the AI's resulting matches for review by
+           a human analyst.</p>
+        </div>
+    </div>
+  </div>
+</div>
+</header>
      <a href="#" id="scroll" style="display: none;"><span></span></a>
 <!-- How it Works section -->
 <section id="section3">
@@ -335,27 +343,6 @@ Why are they important to forensic kinship analysis?</span></h2>
       </div>
       <div class="col-md-5">
         <h3>Let’s imagine a simple pedigree structure with 2 genotyped parents and a missing child.<br></h3>
-
-        <p>
-In this document, we introduce an artificial intelligence (AI) tool that
-can match missing individuals to families (pedigrees) with calculated
-probabilities. We have developed a method to score potential
-relationships (likelihood ratio scores) that the AI can understand
-and exploit to find matches for a target pedigree within a searchable
-database of genotyped individuals. To demonstrate how the AI can
-assist in solving kinship analysis problems, we present a series of
-example scenarios.</p>
-          <h3>Scenario 1: Missing person is a child</h3>
-        <p>Here is a simple scenario in which there are genotyped parents but
-the child is unknown (U1). If the AI were presented with the missing
-child's genotype, then it would have a complete parentage trio.
-However, when searching through thousands of unrelated individuals
-the AI will occasionally encounter individuals that have genotypes
-similar to the missing child (U1) by chance alone. Given the parental
-genotypes, we can query the AI for the range of likelihood ratio (LR)
-scores that we expect the true missing child to fall within. We can also
-query for the range of LR scores that we expect false matches to fall
-within.</p>
       </div>
     </div>
   </div>
@@ -369,36 +356,7 @@ within.</p>
       <div class="col-md-5">
         <h3>Other pedigrees with the same structure and different starting alleles, yield very different confidence intervals…</h3>
 
-        <p>In Scenario 1A, the thin horizontal line on the left represents the
-scores our AI expects to observe from unrelated matches, and the
-wide horizontal band on the right represents the scores that the AI
-expects for a true child of those parents. These ranges represent
-three-sigma confidence intervals for LR scores (a conventional
-heuristic that "nearly all" values are expected to lie within this
-interval). The dark blue shading on the true match confidence interval
-represents the range of scores expected for a best-case scenario (in
-which the child scored at the top range of expected true matches). In
-this example, the AI calculates zero probability of confidence interval
-overlap between expected false and expected true matches.</p>
-
-        <p>As a complicating factor, consider that other parents may also have
-a missing child. How does the presence of other pedigrees with
-missing children affect the calculation of confidence intervals in this
-example scenario?</p>
-<p>The range for false matches remains the same (its calculation
-represents an aggregate of all random match scores), but the true
-match scores depend on the starting alleles (gene variants) of the
-parents. If the parents have especially rare alleles, we would expect
-the range of true scores to be high because the missing child is
-unlikely to match well against other sets of parents. Conversely, if
-the parents have especially common alleles, we would expect the
-range of true scores to be low.</p>
-<p>The AI understands, based on evaluating the alleles in each family,
-that the confidence intervals will vary, and will subsequently search
-for matches in those different score ranges. Notice that in the case
-of rare parental alleles (Scenario 1B), the confidence intervals of
-expected false and true matches don't overlap, but when the parents
-have common alleles (Scenario 1C) they do.</p>
+       
       </div>
     </div>
   </div>
@@ -412,29 +370,7 @@ have common alleles (Scenario 1C) they do.</p>
       <div class="col-md-5">
         <h3>Lorem Impusm <span>What is Lorem Impusm?</span></h3>
 
-        <p>The three pedigrees with a full
-parentage trio (Scenarios 1A, 1B, 1C)
-have a thick PTP bar (a true positive rate
-of 100%). This result means that if the
-missing person is present in the tested
-population, the AI is certain to find them.
-Nevertheless, the AI may also pull out
-some false positives for these scenarios,
-with probabilities ranging from 25-45%.
-The identification of false matches is
-unavoidable in a large population, as
-some individuals will resemble the
-missing target by chance alone.</p>
-       
-        <p>In Scenario 2, the PTP bar is narrower
-(only 38%). In this case, there is a high
-chance that the true match will be
-misidentified as a non-match, giving a
-PFN of 62%. In other words, the AI is not
-guaranteed to find the correct match,
-even if the missing person is present
-among the genotyped members of a
-population.</p>
+
       </div>
     </div>
   </div>
@@ -443,7 +379,7 @@ population.</p>
   <div class="container">
   <div class="row">
          <div class="col-md">
-        <img class="img-fluid" src="./img/StructuresndDistributions.SVG" alt="picture">
+        <img class="img-fluid" src="./img/StructuresndDistributions.png" alt="picture">
       </div>
       <div class="col-md-5">
         <h3>Based on the structure at hand, know the probability of observing a true match</h3>
@@ -472,13 +408,13 @@ population.</p>
 </section>
 
 <section id="section2">
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
       <div class="col-md-6">
         <img class="img-fluid" src="./img/improvements.png" alt="picture">
       </div>
-      <div class="col-md-6 padding-none">
-        <h3>Getting the best answer you can get</h3>
+      <div class="col-md-6">
+        <h3>Getting the best answer <br> <span style="color: #953412";>you can get</span></h3>
           <p>Bloodhound uses an artificial intelligence powered engine and network analysis for match optimization. </p>
       </div>
     </div> 
@@ -523,6 +459,26 @@ population.</p>
 
   </div>
   <div role="tabpanel" class="tab-pane fade in" id="whatsNew">
+    <header>
+        <a href="#" id="scroll" style="display: none;"><span></span></a>
+       <!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="container">
+    <div class="jumbotron">
+      <div class="row">
+         <div class="col-md-6">
+          <img class="img-fluid ipad2" src="./img/ipad.png" >
+       
+        </div>
+         <div class="col-md-6">
+        <h1 class="display-3">Load, Score &amp; Rank, Characterize and Optimize</h1>
+        <p><span class="subHead">The Bloodhound AI engine can be trained and tuned to deliver results</span></p> <p>Although the AI is able to continuously move across iterations, the
+           interface was designed to gate the AI's resulting matches for review by
+           a human analyst.</p>
+        </div>
+    </div>
+  </div>
+</div>
+</header>
     <section id="section6">
 <div class="container-fluid">
   <div class="row">
@@ -558,7 +514,7 @@ population.</p>
             <div class="col-md-9 bhoechie-tab text-center">
                 <!-- flight section -->
                 <div id="stepOne" class="bhoechie-tab-content active">
-                     <h3 class="text-left">Introducing performance quantitation to forensics</h3>
+                
                      <img class="img-fluid tab-img" src="./img/Screen_2.png" alt="picture">
                      <div class="tab-text">
                      
@@ -566,7 +522,7 @@ population.</p>
                 </div>
                 <!-- train section -->
                 <div id="stepTwo"  class="bhoechie-tab-content">
-                           <h3 class="text-left">Unparalleled flexibility in pedigree analysis</h3>
+                     
                      <img class="img-fluid tab-img" src="./img/figure10.png" alt="figure10">
                      <div class="tab-text">
                
@@ -576,14 +532,14 @@ population.</p>
     
                 <!-- hotel search -->
                 <div id="stepThree" class="bhoechie-tab-content">
-                          <h3 class="text-left">First use of AI and network analysis in forensics </h3>
+             
                      <img class="img-fluid tab-img" src="http://via.placeholder.com/800x400" alt="svg animation">
                      <div class="tab-text">
                      
                       </div>
                 </div>
                 <div id="stepFour" class="bhoechie-tab-content">
-                    <h3 class="text-left">Iterative resolution of structures with multiple missing individuals </h3>
+                
                      <img class="img-fluid tab-img" src="./img/figure12.png" alt="figure12">
                      <div class="tab-text">
                       
@@ -591,20 +547,25 @@ population.</p>
                       </div>
                 </div>
                 <div id="stepFive" class="bhoechie-tab-content">
-                    <h3 class="text-left">Mobile access </h3>
-                   <img class="img-fluid tab-img2" src="./img/Phone_Capture4.png" alt="mobile">
-                     <div class="tab-text">
-                       
+                     <div class="row">
+                    <div class="col-md-6">
+                      <img class="img-fluid" src="./img/Ipad2.png" alt="gpu">
+                    </div>
+                    <div class="col-md-6">
+                      <img class="img-fluid" src="./img/mobile2.png" alt="gpu">
+                    </div>
                     
-                      </div>
+                </div>
                 </div>
                  <div id="stepSix" class="bhoechie-tab-content">
-                    <h3 class="text-left">Performance optimized across multiple technology platforms </h3>
-                   <img class="img-fluid tab-img" src="http://via.placeholder.com/800x400" alt="">
-                     <div class="tab-text">
-                      
-    
-                      </div>
+                   <div class="row">
+                    <div class="col-md-6">
+                      <img class="img-fluid" src="./img/GPGPU_architecture.png" alt="gpu">
+                    </div>
+                    <div class="col-md-6">
+                      <img class="img-fluid" src="./img/HPC2.jpg" alt="gpu">
+                    </div>
+                    
                 </div>
             </div>
           </div>
