@@ -463,10 +463,13 @@ a:hover{
 }
 
 #learn .subHead{
-	font-size: 30px;
-	font-style: bold;
 	text-align: left;
 	color: #953412;
+	font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    color: #953412;
+    font-size: 2rem;
 }
 
 #section1{
@@ -485,7 +488,7 @@ a:hover{
 }
 /*---Element Styles---*/
 #learn h1 {
-    font-size: 35px;
+    font-size: 50px;
 	font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -505,13 +508,13 @@ a:hover{
 
 #learn h2 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 40px;
     color: #953412;
     font-size: 2.5rem;
-	margin-bottom: 50px;
-	text-align: center;
-    }
+    margin-bottom: 50px;
+    text-align: center;
+}
 
 #learn h2 span {
     font-size: 30px;
@@ -585,12 +588,7 @@ a:hover{
     height: 600px;
 }
 
-#section2 .container-fluid{
-	width: 100%;
-	padding:0!important;
-	margin:0!important;
-	background:#eee;
-}
+
 
 #section2 h3 {
     padding-top: 20px;
@@ -603,9 +601,11 @@ a:hover{
 	font-size:25px;
 }
 
-.padding-none{
-	padding-left: 0;
-	background:#eee;
+.container-fluid{
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 
@@ -789,8 +789,13 @@ h2.h2Sub{
     box-shadow: 4px 4px rgba(0,0,0,0.2);
 }
 .card-title{
-	text-align: center;
+	text-align: left;
 	color: #953412!important;
+	font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    color: #953412;
+    font-size: 1.8rem;
 }
 
 .card-block{
