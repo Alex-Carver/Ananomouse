@@ -424,15 +424,22 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 #learn header{
-	height: 700px;
+	height: 850px;
 	width: 100%;
 	background-color: #eee;
 	padding-top: 50px;
-	background-image: url(../img/learnHeaderBG.png);
+	background-image: url(../img/overviewBG.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
+#overviewSpacer{
+	width: 100%;
+	background-image: url(../img/overviewSpacer.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 200px;
+}
 
 
 a {
@@ -474,8 +481,8 @@ a:hover{
     margin-bottom: 2rem;
     background-color: transparent!important;
     border-radius: 0;
+    padding-top: 60px;
 }
-
 /*---Element Styles---*/
 #learn h1 {
     font-size: 35px;
@@ -573,7 +580,9 @@ a:hover{
 /*-------Section 2 Styles ------*/
 #section2 {
     padding-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 0px;
+    background: #eee;
+    height: 600px;
 }
 
 #section2 .container-fluid{
@@ -632,8 +641,8 @@ h2.h2Sub{
 }
 
 #section3 .nav-tabs > li a {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     margin: 20px auto;
     border-radius: 75px!important;
     padding: 0;
@@ -643,29 +652,61 @@ h2.h2Sub{
     padding-right: 40px!important;
     padding-bottom: 30px!important;
     color:#333;
+    background-image: url(../img/button.svg);
+    background-size: cover;
+    background-position: center;
 
 }
 
+
+
 #section3 .nav-tabs > li a.active{
-	background-color: #333!important;
-	color: #eee!important;
+	   width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 75px!important;
+    padding: 0;
+    background-color: #eee!important;
+    padding-left: 40px!important;
+    padding-top: 30px!important;
+    padding-right: 40px!important;
+    padding-bottom: 30px!important;
+    color:#333;
+    background-image: url(../img/buttonHighlight.svg);
+    background-size: cover;
+    background-position: center;
 }
 
 #section3 .nav-tabs > li a:hover{
-	background-color: #333!important;
-	color: #eee!important;
+	
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 75px!important;
+    padding: 0;
+    background-color: #eee!important;
+    padding-left: 40px!important;
+    padding-top: 30px!important;
+    padding-right: 40px!important;
+    padding-bottom: 30px!important;
+    color:#333;
+    background-image: url(../img/buttonHighlight.svg);
+    background-size: cover;
+    background-position: center;
+
 }
 
-#section3 .liner{
-	height: 2px;
-	background: #ddd;
-	position: absolute;
-	width: 80%;
-	margin: 0 auto;
-	left: 0;
-	right: 0;
-	top: 50%;
-	z-index: -1;
+
+#section3 .liner {
+    height: 2px;
+    background: #A23184;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: -1;
 }
 
 
@@ -724,10 +765,10 @@ h2.h2Sub{
 
 /*---Section5 Styles-----*/
 
-#section5{
-	padding-top: 100px;
-	padding-bottom: 100px;
-	background-color: #eee;
+#section5 {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background-color: #eee;
 }
 .card {
     position: relative;
@@ -756,17 +797,39 @@ h2.h2Sub{
 	padding:10px;
 }
 
-.cardPicture{
-	min-height: 330px;
-	max-height: 330px;
-	border-top-right-radius: 10px;
-	border-top-left-radius:10px;
+.cardPicture {
+    min-height: 250px;
+    max-height: 330px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px;
 }
 
 .newBtn{
 	margin-top: 40px;
 }
 
+/*------Getting Started Styles-----*/
+
+ header#getStarted{
+	background-image: url(../img/getStarted.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 760px;
+	background-size: cover;
+}
+
+#gettingStarted.jumbotron{
+	padding-top: 50px;
+}
+ #gettingStartedSpacer{
+ 	background-image: url(../img/gettingStartedSpacer.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 200px;
+ }
 
 
 
@@ -781,6 +844,7 @@ h2.h2Sub{
 	background-image: url(../img/whatsNew.png);
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 }
 
 #section6{
