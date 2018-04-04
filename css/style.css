@@ -409,16 +409,31 @@ font-family: 'Roboto Condensed', sans-serif;
 
 /*------------------------Learn More Styles-------------------*/
 
-.active2{
+
+
+.nav-tabs .nav-link {
+    border: none;
+    border-radius: 0;
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link a.active{
+    border: none;
+    border-radius: 0;
+    background:#222222;
+}
+
+.nav-tabs .nav-link.active {
     color: #eee;
-    background-color: transparent!important;
-    border-color: #dee2e6 #dee2e6 #fff;
+    background-color: #222222!important;
     display: block;
+    border: none;
+    border-radius: 0;
 }
 
 .fixed-top-2 {
     margin-top: 70px;
-    height: 60px;
+    height: 43px;
     background-color: #A23814;
     color: #fff;
 }
@@ -785,7 +800,7 @@ h2.h2Sub{
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 10px;
-    min-height: 700px;
+    min-height: 550px;
     box-shadow: 4px 4px rgba(0,0,0,0.2);
 }
 .card-title{
@@ -836,6 +851,9 @@ h2.h2Sub{
 	height: 200px;
  }
 
+.figure3{
+	max-height: 450px;
+}
 
 
 
@@ -846,7 +864,7 @@ h2.h2Sub{
 	width: 100%;
 	background-color: #eee;
 	padding-top: 50px;
-	background-image: url(../img/whatsNew.png);
+	background-image: url(../img/whatsNewBG.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -957,13 +975,13 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 }
 
 .tab-img{
-	height: 600px;
+	height: 500px;
 	width: 800px;
 }
 
 .tab-img2{
-	height: 600px;
-	width: 600px;
+	height: 500px;
+	width: 300px;
 }
 
 

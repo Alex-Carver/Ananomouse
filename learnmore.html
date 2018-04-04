@@ -17,6 +17,9 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="./css/style.css">
 
+    <script src="animation.js"></script>
+    <script src="snap/dist/snap.svg-min.js"></script>
+
 
 
   </head>
@@ -71,7 +74,7 @@
     <div class="jumbotron">
       <div class="row">
          <div class="col-md-6">
-          <img class="img-fluid ipad2" src="./img/ipad.png" >
+          <img class="img-fluid ipad2" src="./img/IpadOverview.png" >
        
         </div>
          <div class="col-md-6">
@@ -93,13 +96,18 @@
       </div>
     </div>
         <div class="row">
-          <div class="col-md-6 justify-content-center">
-            <img src="./img/ConfidenceInterval.png" class="img-fluid" alt="score ranks">
+          <div class="col-md-4 justify-content-center">
+            <img src="./img/Rank.png" class="img-fluid" alt="score ranks">
 
           </div>
-          <div class="col-md-6 justify-content-center">
-            <img src="./img/ErrorRate.png" class="img-fluid" alt="score ranks">
+          <div class="col-md-4 justify-content-center">
+            <img src="./img/ConfidenceInterval.png" class="img-fluid" alt="score ranks">
+            <img src="./img/Discrimination_legend.png" class="img-fluid" alt="score ranks">
 
+          </div>
+            <div class="col-md-4 justify-content-center">
+            <img src="./img/ErrorRate.png" class="img-fluid" alt="score ranks">
+            <img src="./img/Error_legend.png" class="img-fluid" alt="score ranks">
           </div>
        
       </div>
@@ -132,7 +140,7 @@
     <div class="container">
      <div class="row">
       <div class="col-md-12">
-            <h2 class="section-heading text-center">Complex <span>and Networks Mapping Engine</span></h2>
+            <h2 class="section-heading text-center">Complex Pedigrees <span>And Network Mapping Engine</span></h2>
       </div>
     </div>
             <!--First row-->
@@ -158,7 +166,7 @@
                             <!--Title-->
                             <h4 class="card-title">Complex relationships </h4>
                             <!--Text-->
-                            <p class="card-text">In addition to the scenarios presented above, we have also developeda pedigree mapping engine (and corresponding naming convention) that can detect consanguineous relationships.</p>
+                            <p class="card-text">Whatever the structure, the pedigree mapping engine will dectet it and display it.</p>
                          
                         </div>
                         <!--/.Card content-->
@@ -187,9 +195,9 @@
                         <!--Card content-->
                         <div class="card-block">
                             <!--Title-->
-                            <h4 class="card-title">Multi-generations and multiple missing nodes</h4>
+                            <h4 class="card-title">Multi-generations and multi missing nodes</h4>
                             <!--Text-->
-                            <p class="card-text">The strength of the AI, in terms of both its scoring and mapping capability, is best highlighted with a complex pedigree scenario.</p>
+                            <p class="card-text">The AI's scoring and mapping capability outshines all other methods on complex pedigrees.</p>
                         </div>
                         <!--/.Card content-->
         
@@ -217,9 +225,9 @@
                         <!--Card content-->
                         <div class="card-block">
                             <!--Title-->
-                            <h4 class="card-title">Visualize them within a network of related pedigrees </h4>
+                            <h4 class="card-title">Network of related pedigrees </h4>
                             <!--Text-->
-                            <p class="card-text">Occasionally, the same individual may be matched to multiple pedigree positions with equally high probability. Such cases indicate unresolvable networks, where the available genetic information (e.g. especially common alleles and/or too many individuals in apedigree with no genotype data) is simply insufficient to solve the kinship scenario.</p>
+                            <p class="card-text">When too little genetic information is available to solve the kinship structure, the network mapping engine can display the individual in a network of related pedigrees.</p>
                         </div>
                         <!--/.Card content-->
         
@@ -280,11 +288,11 @@
     <div class="jumbotron">
       <div class="row">
            <div class="col-md-6">
-        <h1 class="display-3">Getting Started</h1>
-        <p><span class="subHead">The Bloodhound AI engine can be trained and tuned to deliver results</span></p> 
+        <h1 class="display-3">Understanding confidence intervals</h1>
+        <p><span class="subHead">Why are they important to forensic kinship analysis?</span></p> 
         </div>
          <div class="col-md-6">
-          <img class="img-fluid ipad2" src="./img/ipad.png" >
+          <img class="img-fluid ipad2" src="./img/IpadGettingStarted.png" >
        
         </div>
     </div>
@@ -295,14 +303,6 @@
 <!-- How it Works section -->
 <section id="section3">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h2>Understanding confidence intervals <br><span>
-Why are they important to forensic kinship analysis?</span></h2>
-
-          <img class="img-fluid distributionImg" src="./img/Normaldistribution.png">
-        </div>
-      </div>
       <div class="row">
         <div class="col-md-12 tabs-wrapper">
         <h2 class="h2Sub">Understanding impact of allele variability  <br> <span style="color:#222222;"> And pedigree structures on matching performance</span></h2>
@@ -363,10 +363,10 @@ Why are they important to forensic kinship analysis?</span></h2>
     <div class="container">
     <div class="row">
       <div class="col-md">
-        <img class="img-fluid" src="./img/figure3.png" alt="picture">
+        <img class="img-fluid figure3" src="./img/figure3.png" alt="picture">
       </div>
       <div class="col-md-5">
-        <h3>Lorem Impusm <span>What is Lorem Impusm?</span></h3>
+        <h3>And different error rates</h3>
 
 
       </div>
@@ -380,7 +380,7 @@ Why are they important to forensic kinship analysis?</span></h2>
         <img class="img-fluid" src="./img/StructuresndDistributions.png" alt="picture">
       </div>
       <div class="col-md-5">
-        <h3>Based on the structure at hand, know the probability of observing a true match</h3>
+        <h3>And whatever the structure, Bloodhound can obtain and a clear picture of how the scores spread…</h3>
 
       </div>
     </div>
@@ -390,14 +390,10 @@ Why are they important to forensic kinship analysis?</span></h2>
   <div class="container">
   <div class="row">         
           <div class="col-md">
-        <img class="img-fluid" src="" alt="picture">
+        <img class="img-fluid" src="./img/ Structures_Prob.PNG" alt="picture">
       </div>
       <div class="col-md-5">
-        <h3>Lorem Impusm <span>What is Lorem Impusm?</span></h3>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis lorem augue, ut malesuada metus gravida blandit.</p>
-          <h3>Lorem Impusm <span>What is Lorem Impusm?</span></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis lorem augue, ut malesuada metus gravida blandit. Suspendisse convallis urna vitae ultrices tempus. Ut rutrum lectus sed venenatis placerat.</p>
+        <h3>And the probability of observing a true match</h3>
       </div>
     </div>
   </div>
@@ -412,8 +408,13 @@ Why are they important to forensic kinship analysis?</span></h2>
         <img class="img-fluid" src="./img/improvements.png" alt="picture">
       </div>
       <div class="col-md-6">
-        <h3 class="text-center">Getting the best answer <br><span style="color: #3e95a6">you can get</span></h3>
-          <p class="text-center">Bloodhound uses an artificial intelligence powered engine and network analysis for match optimization. </p>
+        <h2 class="text-left" style="color: #3e95a6; margin:0;">Getting the best answer <br><span style="font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #333;
+    line-height: 40px;
+    margin-bottom: 20px;">You Can Get</span></h2>
+          <p class="text-left">Bloodhound uses an artificial intelligence powered engine and network analysis for match optimization. A recently performed large scale study of over 10,000 simulated pedigrees and missing individuals demonstrated the Bloodhound classifier outperformed  a classifier that relied on LR score rankings alone by an average 17%.</p>
       </div>
     </div> 
   </div>
@@ -468,22 +469,15 @@ Why are they important to forensic kinship analysis?</span></h2>
        
         </div>
          <div class="col-md-6">
-        <h1 class="display-3">Load, Score &amp; Rank, Characterize and Optimize</h1>
-        <p><span class="subHead">The Bloodhound AI engine can be trained and tuned to deliver results</span></p> <p>Although the AI is able to continuously move across iterations, the
-           interface was designed to gate the AI's resulting matches for review by
-           a human analyst.</p>
+        <h1 class="display-3">What’s new in Bloodhound</h1>
+        <p><span class="subHead">The latest Bloodhound delivers unmatched precision, performance and flexibility to forensic kinship analysis.</span></p> 
         </div>
     </div>
   </div>
 </div>
 </header>
-    <section id="section6">
+<section id="section6">
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <h2 style="font-size:3rem;">What’s New in <span style="font-size: 2.5rem;"">BLOODHOUND</span></h2>
-    </div>
-  </div>
   <div class="row">
         <div class="col-md-12 text-center bhoechie-tab-container">
           <div class="row">
@@ -515,7 +509,8 @@ Why are they important to forensic kinship analysis?</span></h2>
                 
                      <img class="img-fluid tab-img" src="./img/Screen_2.png" alt="picture">
                      <div class="tab-text">
-                     
+                        <h3>Introducing performance quantitation to forensics.</h3>
+                        <p>Let the Bloodhound AI  show you the impact of different allele combinations or permutations in pedigree structures on your ability to find the correct match.</p>
                       </div>
                 </div>
                 <!-- train section -->
@@ -523,52 +518,66 @@ Why are they important to forensic kinship analysis?</span></h2>
                      
                      <img class="img-fluid tab-img" src="./img/figure10.png" alt="figure10">
                      <div class="tab-text">
-               
+                        <h3>Fully automated </h3>
+                        <p>Unparalleled flexibility in pedigree analysis. Whatever the number of generations, whatever the complexity, Bloodhound delivers a truly hands-off pedigree mapping engine.</p>
+                      </div>
                         
                       </div>
-                </div>
+         
     
                 <!-- hotel search -->
                 <div id="stepThree" class="bhoechie-tab-content">
              
                      <img class="img-fluid tab-img" src="http://via.placeholder.com/800x400" alt="svg animation">
                      <div class="tab-text">
-                     
+                        <h3>Network analysis</h3>
+                        <p>First use of AI and network analysis in forensics. Input pedigrees are quickly organized into higher order structures with similar solution characteristics for faster results.</p>
                       </div>
                 </div>
                 <div id="stepFour" class="bhoechie-tab-content">
                 
                      <img class="img-fluid tab-img" src="./img/figure12.png" alt="figure12">
                      <div class="tab-text">
-                      
+                        <h3>Learn and solve</h3>
+                        <p>Iterative resolution of structures with multiple missing individuals. With each new pedigree Bloodhound learns something new and processes new data a little faster.</p>
                       
                       </div>
                 </div>
                 <div id="stepFive" class="bhoechie-tab-content">
                      <div class="row">
                     <div class="col-md-6">
-                      <img class="img-fluid" src="./img/Ipad2.png" alt="gpu">
+                      <img class="img-fluid tab-img" src="./img/Ipad2.png" alt="gpu">
                     </div>
                     <div class="col-md-6">
-                      <img class="img-fluid" src="./img/mobile2.png" alt="gpu">
+                      <img class="img-fluid tab-img2" src="./img/mobile2.png" alt="gpu">
                     </div>
+                      <div class="tab-text">
+                        <h3>Access anywhere</h3>
+                        <p>Mobile access. Connect to Bloodhound from your favorite device, whenever you need to and wherever you are.</p>
+                      
+                      </div>
                     
                 </div>
                 </div>
                  <div id="stepSix" class="bhoechie-tab-content">
                    <div class="row">
                     <div class="col-md-6">
-                      <img class="img-fluid" src="./img/GPGPU_architecture.png" alt="gpu">
+                      <img class="img-fluid tab-img" src="./img/GPGPU_architecture.png" alt="gpu">
                     </div>
                     <div class="col-md-6">
-                      <img class="img-fluid" src="./img/HPC2.jpg" alt="gpu">
+                      <img class="img-fluid tab-img" src="./img/HPC2.jpg" alt="gpu">
                     </div>
-                    
+                       <div class="tab-text">
+                        <h3>Platform versatiliy</h3>
+                        <p>Performance optimization across multiple technology platforms. Whatever the resources at hand, Bloodhound has been designed to make the best of it and process the data efficiently.</p>
+                      
+                      </div>
                 </div>
             </div>
           </div>
       </div>
   </div>
+</div>
 </div>
 </section>
  <!-- Footer -->
