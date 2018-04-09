@@ -594,6 +594,10 @@ a:hover{
     color: #333;
 }
 
+.img-padding{
+	margin-bottom: 20px;
+}
+
 
 /*-------Section 2 Styles ------*/
 #section2 {
@@ -785,6 +789,7 @@ h2.h2Sub{
     padding-bottom: 100px;
     background-color: #eee;
 }
+
 .card {
     position: relative;
     display: -webkit-box;
@@ -800,8 +805,9 @@ h2.h2Sub{
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 10px;
-    min-height: 550px;
+    min-height: 700px;
     box-shadow: 4px 4px rgba(0,0,0,0.2);
+    margin-bottom: 40px;
 }
 .card-title{
 	text-align: left;
@@ -984,6 +990,12 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 	width: 300px;
 }
 
+     
+        /* This styles should be included */
+        #pic1, #pic2 {position:absolute;}
+        #pic2 {opacity:0;}
+        text {clip-path:none !important;}
+
 
 #subNavPanes .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #eee;
@@ -1144,14 +1156,199 @@ font-family: 'Roboto Condensed', sans-serif;
     color: #bababa;
     font-size: 18px;
   }
+
+/*---------------Lear More Styles------------------------------*/
+/*-----Overview Started Styles------*/
+
+#learn header {
+    height: 790px;
+    width: 100%;
+    background-color: #eee;
+    padding-top: 50px;
+    background-image: url(../img/overviewBG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#learn h1 {
+    font-size: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #363636;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+#learn h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    color: #953412;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#learn h2 span {
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #333;
+    line-height: 40px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#section1 {
+    padding-top: 0px;
+    color: #fff;
+    text-align: center;
+    min-height: 600px;
+}
+
+#learn .ipad2 {
+    min-height: 400px;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 10px;
+    min-height: 550px;
+    box-shadow: 4px 4px rgba(0,0,0,0.2);
+    margin-bottom: 40px;
+}
+
+.card-title {
+    text-align: left;
+    color: #953412!important;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    color: #953412;
+    font-size: 2rem;
+}
+
+.card-text{
+    font-size: 1.8rem!important;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.cardPicture {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.img-padding {
+    margin-bottom: 40px;
+}
+
+#overviewSpacer {
+    width: 100%;
+    background-image: url(../img/overviewSpacer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+#section2 {
+    padding-top: 50px;
+    margin-bottom: 0px;
+    background: #eee;
+    min-height: 620px;
+}
+
+#section2 p {
+    padding-right: 0px;
+    padding-top: 0px;
+    font-size: 25px;
+}
+
+#section3 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#section3 .tab-pane {
+    position: relative;
+    padding-top: 50px;
+    min-height: 520px;
+}
+
+
+
+/*-----What's New-----*/
+#section6 {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+
+#subNavPanes a {
+    color: #eee!important;
+    text-decoration: none;
+    -webkit-text-decoration-skip: objects;
+    font-size: 1.2rem;
+}
+
+.tab-text {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+div.bhoechie-tab-content {
+    background-color: #ffffff;
+    /* border: 1px solid #eeeeee; */
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
 }
 
 /*--Small Medi Queries---*/
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media only screen and (min-width: 375px) and (max-width: 667px) {
   .navbar-toggler {
     margin-right: 10px;
   }
 
+.btn2 {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 150px;
+}
   .dropdown-item {
     display: block;
     width: 100%;
@@ -1293,10 +1490,188 @@ font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     line-height: 40px;
   }
+
+
+
+/*-----------------------Learn More Styles--------------*/
+
+/*------OverView Styles---*/
+
+.nav-tabs > li a {
+    width: 100%;
+    height: 100%;
+}
+.nav-tabs .nav-link.active {
+    color: #333;
+    background-color: transparent!important;
+    border-color: #dee2e6 #dee2e6 #fff;
+    display: block;
+}
+
+#learn h1 {
+    font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #363636;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+#learn header {
+    height: auto;
+    width: 100%;
+    background-color: #eee;
+    padding-top: 50px;
+    background-image: url(../img/overviewBG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#learn h2 span {
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #333;
+    line-height: 40px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#learn h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    color: #953412;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#learn .ipad2 {
+    min-height: 400px;
+}
+
+#section1 {
+    padding-top: 0px;
+    color: #fff;
+    text-align: center;
+    min-height: 600px;
+}
+
+#section3 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#section2 {
+    padding-top: 50px;
+    margin-bottom: 0px;
+    background: #eee;
+    min-height: 950px;
+}
+
+#section3 .nav-tabs > li a {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    color: #333;
+    background-image: url(../img/button.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+#section3 .nav-tabs > li a.active {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    background-color: #eee!important;
+    color: #333;
+    background-image: url(../img/buttonHighlight.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+#section3 .nav-tabs > li a:hover {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    color: #333;
+    background-image: url(../img/buttonHighlight.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tab-text {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+}
+
+div.bhoechie-tab-menu div.list-group>a {
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #333;
+}
+
+div.bhoechie-tab-menu div.list-group>a.active, div.bhoechie-tab-menu div.list-group>a.active .glyphicon, div.bhoechie-tab-menu div.list-group>a.active .fa {
+    background-color: #953412;
+    background-image: #333;
+    color: #ffffff;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab-img {
+    height: auto;
+    width: 100%;
+}
+
+#learn h3 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.tab-text {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+#section6 {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #fff;
+}
+.btn2 {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 130px;
+    margin-left: 10px;
+}
 }
 
 /*--Xtra Small Media Queries--*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+@media only screen and (min-width: 320px) and (max-width: 568px) {
   .navbar-toggler {
     margin-right: 10px;
   }
@@ -1454,11 +1829,185 @@ h2 span {
   .input-group{
     width: 200px;
   }
+
+/*-------------Getting Started Styles-----------*/
+/*------Overview Styles------------*/
+
+div.bhoechie-tab-menu div.list-group>a {
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #333;
+}
+
+.nav-tabs > li a {
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+}
+.navbar-collapse1{
+	height: 200px;
+	background-color: #222222;
+	z-index: 99999;
+	padding-top: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #eee;
+}
+
+#learn h1 {
+    font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #363636;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+#learn header {
+    height: auto;
+    width: 100%;
+    background-color: #eee;
+    padding-top: 50px;
+    background-image: url(../img/overviewBG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#learn h2 span {
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #333;
+    line-height: 40px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#learn h2 {
+     font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    color: #953412;
+    font-size: 1.8rem;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+#learn .ipad2 {
+    min-height: 400px;
+}
+
+#section1 {
+    padding-top: 0px;
+    color: #fff;
+    text-align: center;
+    min-height: 600px;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 10px;
+    min-height: 550px;
+    box-shadow: 4px 4px rgba(0,0,0,0.2);
+    margin-bottom: 40px;
+}
+
+.btn2 {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 130px;
+    margin-left: 10px;
+}
+
+
+.contact {
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+
+#section1 {
+    padding-top: 0px;
+    color: #fff;
+    text-align: center;
+    min-height: 600px;
+}
+
+#section3 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#section2 {
+    padding-top: 50px;
+    margin-bottom: 0px;
+    background: #eee;
+    min-height: 950px;
+}
+
+#section3 .nav-tabs > li a {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    color: #333;
+    background-image: url(../img/button.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+#section3 .nav-tabs > li a.active {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    background-color: #eee!important;
+    color: #333;
+    background-image: url(../img/buttonHighlight.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+#section3 .nav-tabs > li a:hover {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    color: #333;
+    background-image: url(../img/buttonHighlight.svg);
+    background-size: cover;
+    background-position: center;
+}
 }
 
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) { 
+and (min-width : 320px) 
+and (max-width : 480px) { 
 
 h1 {
     font-size: 30px;
@@ -1495,6 +2044,128 @@ h1 span {
     font-size: 30px;
     letter-spacing: -2px;
     margin-top: -20px;
+}
+
+.contact {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.nav-tabs > li a {
+    width: 100%;
+    height: 100%;
+}
+
+#section3 .nav-tabs > li a {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    color: #333;
+    background-image: url(../img/button.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+#section3 .nav-tabs > li a.active {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    background-color: #eee!important;
+    color: #333;
+    background-image: url(../img/buttonHighlight.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+#section3 .nav-tabs > li a:hover {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    color: #333;
+    background-image: url(../img/buttonHighlight.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tab-img {
+    height: 100%;
+    width: 100%;
+}
+
+#section1 {
+    padding-top: 0px;
+    color: #fff;
+    text-align: center;
+    min-height: 600px;
+}
+
+#section3 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#section2 {
+    padding-top: 50px;
+    margin-bottom: 0px;
+    background: #eee;
+    min-height: 950px;
+}
+
+
+
+#learn h3 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.tab-text {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+#section6 {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #fff;
+}
+.btn2 {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 130px;
+    margin-left: 10px;
+}
+
+#learn .subHead {
+    text-align: left;
+    color: #953412;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    color: #953412;
+    font-size: 1.8rem;
+}
+
+div.bhoechie-tab-menu div.list-group>a {
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #333;
 }
 
 }
