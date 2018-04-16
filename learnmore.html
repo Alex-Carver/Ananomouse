@@ -17,8 +17,6 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="./css/style.css">
 
-    <script src="./js/animation.js"></script>
-    <script src="snap/dist/snap.svg-min.js"></script>
 
 
 
@@ -223,41 +221,6 @@
                 <p class="text-center newBtn"><button id="gotonew" class="btn btn-primary"><a href="#" data-toggle="tab">See all the new features</a></button></p>
           </div>
         </section>
-
-   <!-- Footer -->
-  <footer id="footer">
-    <div class="container-fluid">
-      <div class="row justify-content-center contact">
-        <form class="form-inline">
-          <h2 class="request">Request Information</h2>
-          <label class="sr-only" for="inlineFormInputGroup">Email</label>
-          <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Email Address">
-          </div>
-
-          <button type="submit" class="btn btn-primary btn2">Submit</button>
-        </form>
-      </div>
-
-      <div class="row padding-footer">
-        <div class="col-sm-6">
-          <h2 class="info-title text-left">Ananomouse Corporation</h2>
-          <p class="info">245 First Street, Riverview II, 18th Floor <br>Cambridge, Massachusetts, 02142</p>
-        </div>
-        <div class="col-sm-6">
-          <h2 class="text-right info-title">Contact</h2>
-          <p class="text-right info"> (617) 848-9493<br> information@ananomouse.com
-          </p>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-sm-12">
-          <p class="text-left copyright">© 2005-2018 Ananomouse Corporation. All rights reserved</p>
-        </div>
-      </div>
-    </div>
-    <!-- container -->
-  </footer>
 </div>
 
 <!-- getting started -->
@@ -402,41 +365,6 @@
 </section>
     
 
-   <!-- Footer -->
-  <footer id="footer">
-    <div class="container-fluid">
-      <div class="row justify-content-center contact">
-        <form class="form-inline">
-          <h2 class="request">Request Information</h2>
-          <label class="sr-only" for="inlineFormInputGroup">Email</label>
-          <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Email Address">
-          </div>
-
-          <button type="submit" class="btn btn2 btn-primary">Submit</button>
-        </form>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-6">
-          <h2 class="info-title text-left">Ananomouse Corporation</h2>
-          <p class="info">245 First Street, Riverview II, 18th Floor <br>Cambridge, Massachusetts, 02142</p>
-        </div>
-        <div class="col-sm-6">
-          <h2 class="text-right info-title">Contact</h2>
-          <p class="text-right info"> (617) 848-9493<br> information@ananomouse.com
-          </p>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-sm-12">
-          <p class="text-left copyright">© 2005-2018 Ananomouse Corporation. All rights reserved</p>
-        </div>
-      </div>
-    </div>
-    <!-- container -->
-  </footer>
-
   </div>
   <div role="tabpanel" class="tab-pane fade in" id="whatsNew">
     <header id="new">
@@ -540,25 +468,20 @@
         </div>
       </div>
     </section>
-
-          
-        
-         
-    
-       
-
+</div>
+</div>
  <!-- Footer -->
   <footer id="footer">
     <div class="container-fluid">
       <div class="row justify-content-center contact">
-        <form class="form-inline">
+         <form class="form-inline" action="action.php" method="post">
           <h2 class="request">Request Information</h2>
           <label class="sr-only" for="inlineFormInputGroup">Email</label>
           <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Email Address">
+            <input type="text" name="field1" class="form-control" id="inlineFormInputGroup" placeholder="Email Address">
           </div>
 
-          <button type="submit" class="btn btn2 btn-primary">Submit</button>
+          <button type="submit" value="Submit" class="btn btn-primary btn2">Submit</button>
         </form>
       </div>
 
@@ -581,8 +504,6 @@
     </div>
     <!-- container -->
   </footer>
-</div>
-</div>
 
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
