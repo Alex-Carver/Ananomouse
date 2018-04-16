@@ -130,17 +130,11 @@ label {
 font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   font-size: 25px;
-  display: inline-block;
   margin-bottom: 0.5rem;
   color: #eee;
 }
 
-.email {
-  width: 100%;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 
 
 .btn-primary {
@@ -1034,7 +1028,23 @@ h2.h2Sub{
     color: #bababa;
     font-size: 18px;
   }
-
+.btn2{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 100px!important;
+}
 /*---------------Lear More Styles------------------------------*/
 /*-----Overview Started Styles------*/
 
@@ -1256,7 +1266,7 @@ h2.h2Sub{
     margin-right: 10px;
   }
 
-.btn2 {
+.btn2{
     display: inline-block;
     font-weight: 400;
     text-align: center;
@@ -1271,7 +1281,7 @@ h2.h2Sub{
     line-height: 1.5;
     border-radius: 10px;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    width: 150px;
+    width: 100px!important;
 }
   .dropdown-item {
     display: block;
@@ -1819,27 +1829,6 @@ h2 span {
     text-align: left !important;
   }
 
-  .request {
-  	text-align: left!important
-    font-size: 25px !important;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
-    line-height: 40px;
-  }
-
-  .form-inline {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding-left: 10px;
-}
 
  .btn-primary {
     background-color: #953412;
@@ -1851,9 +1840,6 @@ h2 span {
     margin-bottom: 10px;
 }
 
-  .input-group{
-    width: 200px;
-  }
 
 /*-------------Getting Started Styles-----------*/
 /*------Overview Styles------------*/
