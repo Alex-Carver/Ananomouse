@@ -487,15 +487,17 @@
         <div class="col-md-10 space1 offset-md-1">
             <h2 style="color:#3e95a6;">Network analysis</h2>
                 <p>First use of AI and network analysis in forensics. Input pedigrees are quickly organized into higher order structures with similar solution characteristics for faster results.</p>
-                <OBJECT CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" WIDTH="1000" HEIGHT="500"
-CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab">
-<PARAM name="SRC" VALUE="NetworkAnimation.avi" >
-<PARAM name="AUTOPLAY" VALUE="true">
-<PARAM name="CONTROLLER" VALUE="true">
-<EMBED SRC="NetworkAnimation.avi" WIDTH="1000" HEIGHT="500" AUTOPLAY="true" CONTROLLER="true" PLUGINSPAGE="http://www.apple.com/quicktime/download/">
-</EMBED>
+
+                <OBJECT ID="MediaPlayer" WIDTH="192" HEIGHT="190" CLASSID="CLSID:22D6F312-B0F6-11D0-94AB-0080C74C7E95"
+STANDBY="Loading Windows Media Player components..." TYPE="application/x-oleobject">
+<PARAM NAME="FileName" VALUE="NetworkAnimation.avi">
+<PARAM name="autostart" VALUE="false">
+<PARAM name="ShowControls" VALUE="true">
+<param name="ShowStatusBar" value="false">
+<PARAM name="ShowDisplay" VALUE="false">
+<EMBED TYPE="application/x-mplayer2" SRC="NetworkAnimation.avi" NAME="MediaPlayer"
+WIDTH="192" HEIGHT="190" ShowControls="1" ShowStatusBar="0" ShowDisplay="0" autostart="0"> </EMBED>
 </OBJECT>
-                
         </div>
       </div>
     </div>
