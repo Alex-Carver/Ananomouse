@@ -1,9 +1,14 @@
-<?php  
-	$path = 'data.txt';
-	if (isset($_POST['field1'])){
-		$fh = fopen($path,"a+");
-		$string = $_POST['field1'].' - ';
-		fwrite($fh,$string);//write information to text file
-		fclose($fh);//closes file
-	} 
-?>
+<?php
+if(isset($_POST['field1'])) {
+    $data = $_POST['field1'] . '-' .  "\n";
+    $ret = file_put_contents('../php/data.txt', $data, FILE_APPEND | LOCK_EX);
+    if($ret === false) {
+        die('There was an error writing this file');
+    }
+    else {
+        echo "$ret bytes written to file";
+    }
+}
+else {
+   die('no post data to process');
+}
