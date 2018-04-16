@@ -66,7 +66,7 @@
 
 <div class="tab-content">
   <div role="tabpanel" class="tab-pane show fade active" id="overview">
-<header>
+<header id="overview-header">
       
        <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="container">
@@ -476,7 +476,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-6 space1">
-          <h2 class="text-left" style="color: #3e95a6;">Fully automated </h2>
+          <h2 class="text-left" style="color: #3e95a6; margin-bottom: 20px;">Fully automated </h2>
               <p class="text-left">Let the Bloodhound AI  show you the impact of different allele combinations or permutations in pedigree structures on your ability to find the correct match.</p>
         </div>
         <div class="col-md-6 space1">         
@@ -485,19 +485,17 @@
       </div>
          <div class="row text-center ">
         <div class="col-md-10 space1 offset-md-1">
-            <h2 style="color:#3e95a6;">Network analysis</h2>
+            <h2 style="color:#3e95a6; margin-bottom: 20px;">Network analysis</h2>
                 <p>First use of AI and network analysis in forensics. Input pedigrees are quickly organized into higher order structures with similar solution characteristics for faster results.</p>
 
-                <OBJECT ID="MediaPlayer" WIDTH="192" HEIGHT="190" CLASSID="CLSID:22D6F312-B0F6-11D0-94AB-0080C74C7E95"
-STANDBY="Loading Windows Media Player components..." TYPE="application/x-oleobject">
-<PARAM NAME="FileName" VALUE="NetworkAnimation.avi">
-<PARAM name="autostart" VALUE="false">
-<PARAM name="ShowControls" VALUE="true">
-<param name="ShowStatusBar" value="false">
-<PARAM name="ShowDisplay" VALUE="false">
-<EMBED TYPE="application/x-mplayer2" SRC="NetworkAnimation.avi" NAME="MediaPlayer"
-WIDTH="192" HEIGHT="190" ShowControls="1" ShowStatusBar="0" ShowDisplay="0" autostart="0"> </EMBED>
-</OBJECT>
+
+    <!-- Video -->
+ <!-- 16:9 aspect ratio -->
+
+<div class="embed-responsive embed-responsive-16by9">
+  <video id="video"  poster="./img/video.png" class="embed-responsive-item" src="NetworkAnimation.mov"></video>
+</div>
+
         </div>
       </div>
     </div>
@@ -526,7 +524,7 @@ WIDTH="192" HEIGHT="190" ShowControls="1" ShowStatusBar="0" ShowDisplay="0" auto
          
         </div>
         <div class="col-md-6 space1">
-               <h2 class="text-left" style="color: #3e95a6;">Access anywhere</h2>
+               <h2 class="text-left" style="color: #3e95a6; margin-bottom: 20px;">Access anywhere</h2>
             <h3></h3>
             <p>Mobile access. Connect to Bloodhound from your favorite device, whenever you need to and wherever you are.</p>
         </div>

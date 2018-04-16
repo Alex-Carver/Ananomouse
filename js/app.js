@@ -31,3 +31,8 @@ $('#gotonew').click(function(){
   $('a[href="#whatsNew"]').click();
   console.log($('a[href="#whatsNew"]').text() + ' click triggered');
 });
+
+
+$('#video').click(function(){
+   document.getElementById('video').play();
+});
