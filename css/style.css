@@ -22,6 +22,9 @@
     margin-right: auto;
 }
 
+input{
+	margin-bottom: 10px;
+}
 
 *{
   margin: 0;
@@ -134,7 +137,13 @@ font-family: 'Roboto Condensed', sans-serif;
   color: #eee;
 }
 
+form{
+	width: 60%;
+}
 
+.btn2{
+	margin-top: 10px!important;
+}
 
 
 .btn-primary {
@@ -667,37 +676,27 @@ h2.h2Sub{
     width: 100px;
     height: 100px;
     margin: 20px auto;
-    border-radius: 75px!important;
     padding: 0;
-    background-color: #eee!important;
-    padding-left: 40px!important;
-    padding-top: 30px!important;
-    padding-right: 40px!important;
-    padding-bottom: 30px!important;
-    color:#333;
+    background-color: transparent!important;
     background-image: url(../img/button.svg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
 
 }
 
 
 
 #section3 .nav-tabs > li a.active{
-	   width: 100px;
+	width: 100px;
     height: 100px;
     margin: 20px auto;
-    border-radius: 75px!important;
     padding: 0;
-    background-color: #eee!important;
-    padding-left: 40px!important;
-    padding-top: 30px!important;
-    padding-right: 40px!important;
-    padding-bottom: 30px!important;
-    color:#333;
+    background-color: transparent!important;
     background-image: url(../img/buttonHighlight.svg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #section3 .nav-tabs > li a:hover{
@@ -705,17 +704,12 @@ h2.h2Sub{
     width: 100px;
     height: 100px;
     margin: 20px auto;
-    border-radius: 75px!important;
     padding: 0;
-    background-color: #eee!important;
-    padding-left: 40px!important;
-    padding-top: 30px!important;
-    padding-right: 40px!important;
-    padding-bottom: 30px!important;
-    color:#333;
+    background-color: transparent!important;
     background-image: url(../img/buttonHighlight.svg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
 
 }
 
@@ -862,7 +856,7 @@ h2.h2Sub{
  }
 
 .panesImg{
-	max-height: 300px;
+	max-height: 500px;
 }
 
 .learnAndSolve {
@@ -1283,6 +1277,8 @@ h2.h2Sub{
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     width: 100px!important;
 }
+
+
   .dropdown-item {
     display: block;
     width: 100%;
@@ -1546,34 +1542,44 @@ h2.h2Sub{
 }
 
 #section3 .nav-tabs > li a {
-    width: 10px;
-    height: 10px;
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
     padding: 0;
-    color: #333;
+    background-color: transparent!important;
     background-image: url(../img/button.svg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+
 }
 
-#section3 .nav-tabs > li a.active {
-    width: 10px;
-    height: 10px;
+
+
+#section3 .nav-tabs > li a.active{
+	width: 40px;
+    height: 40px;
+    margin: 20px auto;
     padding: 0;
-    background-color: #eee!important;
-    color: #333;
+    background-color: transparent!important;
     background-image: url(../img/buttonHighlight.svg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
-#section3 .nav-tabs > li a:hover {
-    width: 10px;
-    height: 10px;
+#section3 .nav-tabs > li a:hover{
+	
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
     padding: 0;
-    color: #333;
+    background-color: transparent!important;
     background-image: url(../img/buttonHighlight.svg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .tab-text {
@@ -1623,9 +1629,26 @@ h2.h2Sub{
     line-height: 1.5;
     border-radius: 10px;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    width: 130px;
-    margin-left: 10px;
+    width: 100%!important;
+    margin-top: 10px!important;
 }
+
+form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
 #section7 .col-sm-12{
 	margin-bottom:50px;
 }
@@ -1669,6 +1692,23 @@ h2.h2Sub{
     background-image: url(../img/overviewBG.jpg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.learnAndSolve {
+    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+.phoneBackground {
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/phoneSmall.png);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 150px;
 }
 
 }
@@ -1959,8 +1999,7 @@ h2 span {
     line-height: 1.5;
     border-radius: 10px;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    width: 130px;
-    margin-left: 10px;
+    width: 100%;
 }
 
 
@@ -1989,34 +2028,44 @@ h2 span {
 }
 
 #section3 .nav-tabs > li a {
-    width: 10px;
-    height: 10px;
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
     padding: 0;
-    color: #333;
+    background-color: transparent!important;
     background-image: url(../img/button.svg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+
 }
 
-#section3 .nav-tabs > li a.active {
-    width: 10px;
-    height: 10px;
+
+
+#section3 .nav-tabs > li a.active{
+	width: 40px;
+    height: 40px;
+    margin: 20px auto;
     padding: 0;
-    background-color: #eee!important;
-    color: #333;
+    background-color: transparent!important;
     background-image: url(../img/buttonHighlight.svg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
-#section3 .nav-tabs > li a:hover {
-    width: 10px;
-    height: 10px;
+#section3 .nav-tabs > li a:hover{
+	
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
     padding: 0;
-    color: #333;
+    background-color: transparent!important;
     background-image: url(../img/buttonHighlight.svg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 #section7 h3{
@@ -2029,6 +2078,11 @@ h2 span {
 
 
 
+.learnAndSolve {
+    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
 .phoneBackground {
     width: 100%;
     height: 600px;
@@ -2036,14 +2090,47 @@ h2 span {
     background-position: center;
     background-size: contain;
     background-image: url(../img/phoneSmall.png);
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 150px;
 }
+form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
 }
 
 @media only screen 
 and (min-width : 320px) 
 and (max-width : 480px) { 
+
+form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
 
 	#section7 p{
 	margin-top: 20px;
@@ -2106,25 +2193,45 @@ h1 span {
     background-position: center;
 }
 
-#section3 .nav-tabs > li a.active {
-    width: 10px;
-    height: 10px;
+#section3 .nav-tabs > li a {
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
     padding: 0;
-    background-color: #eee!important;
-    color: #333;
-    background-image: url(../img/buttonHighlight.svg);
-    background-size: cover;
+    background-color: transparent!important;
+    background-image: url(../img/button.svg);
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+
 }
 
-#section3 .nav-tabs > li a:hover {
-    width: 10px;
-    height: 10px;
+
+
+#section3 .nav-tabs > li a.active{
+	width: 40px;
+    height: 40px;
+    margin: 20px auto;
     padding: 0;
-    color: #333;
+    background-color: transparent!important;
     background-image: url(../img/buttonHighlight.svg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+}
+
+#section3 .nav-tabs > li a:hover{
+	
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
+    padding: 0;
+    background-color: transparent!important;
+    background-image: url(../img/buttonHighlight.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .tab-img {
@@ -2187,8 +2294,7 @@ h1 span {
     line-height: 1.5;
     border-radius: 10px;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    width: 130px;
-    margin-left: 10px;
+    width: 100%;
 }
 
 #learn .subHead {
