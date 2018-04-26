@@ -944,11 +944,17 @@ h2.h2Sub{
 /*-----Video Styles----*/
 
 video {
-background-color: transparent !important;
+background-color: transparent!important;
 }
-
+#video{
+background-color: transparent!important;
+}
 .ped_5660{
 	height: 400px;
+}
+
+.ped{
+	max-height: 294px;
 }
 
 /*--------Media Queries-------*/
