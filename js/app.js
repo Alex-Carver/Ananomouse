@@ -25,7 +25,7 @@ $('#gotonew').click(function(){
 });
 
 
-$('.nav-tabs a').click(function(){
+$('.nav-tabs1 a').click(function(){
     $(this).tab('show');
       $("html, body").animate({ scrollTop: 0 }, 600); 
     return false; 

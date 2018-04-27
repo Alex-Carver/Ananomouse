@@ -444,19 +444,20 @@ font-family: 'Roboto Condensed', sans-serif;
     border-bottom: none;
 }
 
-.nav-tabs .nav-link a.active{
+a.active{
     border: none;
     border-radius: 0;
     background:#222222;
 }
 
-.nav-tabs .nav-link.active {
-    color: #eee;
+a.active:hover{
+	 color: #eee;
     background-color: #222222!important;
     display: block;
     border: none;
     border-radius: 0;
 }
+
 
 .fixed-top-2 {
     margin-top: 70px;
