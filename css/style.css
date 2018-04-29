@@ -184,13 +184,14 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 #sectionSpacer2 {
-  height: 110px;
-  width: 100%;
-  background-color: #fff;
-  margin-bottom: 0px;
-  background-size: cover;
-  background-position: center;
-  background-image: url(../img/spacer.png);
+    height: 200px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 0px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/spacer.png);
+    margin-top: 200px;
 }
 
 #sectionSpacer3 {
@@ -1003,6 +1004,16 @@ background-color: transparent!important;
     text-align: left !important;
   }
 
+#sectionSpacer2 {
+    height: 245px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 0px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/spacer.png);
+    margin-top: 280px;
+}
   h1 span {
     font-weight: 400;
     color: #953412;
