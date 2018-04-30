@@ -75,6 +75,16 @@ hr {
   max-height: 640px;
 }
 
+.btn2 {
+    margin-top: 10px!important;
+    background-color: #953412;
+    color: #eee;
+}
+
+.btn2:hover{
+    background-color: #333;
+    color: #eee;
+}
 /*---Element Styles---*/
 h1 {
     font-size: 50px;
@@ -636,7 +646,7 @@ a:hover{
 #section2 {
     padding-top: 50px;
     margin-bottom: 0px;
-    background: #eee;
+    background: #fff;
     height: auto;
     min-height: 750px;
 }
