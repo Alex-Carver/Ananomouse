@@ -10,6 +10,5 @@
       $email = $_POST['email']."\n";
       fwrite($myfile, $email);
       fclose($myfile);
-      echo “<h1>You data has been saved in a text file!</h1>”;
     }
   ?>
