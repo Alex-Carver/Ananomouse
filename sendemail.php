@@ -19,32 +19,29 @@
 
     $email = $_POST['email']."\n";//call email
     fwrite($myfile, $email);//write email
-
-    $message = $_POST['message']."\n";//call message
-    fwrite($myfile, $message);//write message
     fclose($myfile);//close file and save
 
    
 		$mail = new PHPMailer();
 
 		//if you want to send via SMTP
-		$mail->Host = "smtp.gmail.com";//don't change host provider
+		$mail->Host = "smtp.gmail.com";
 		//$mail->isSMTP();
-		$mail->SMTPAuth = true;//authentication is true don't change
-		$mail->Username = "yourname@gmail.com";//your Gmail here
-		$mail->Password = "your password";//your Gmail password
-		$mail->SMTPSecure = "ssl"; //TLS dont change
-		$mail->Port = 465; //587 dont change
+		$mail->SMTPAuth = true;
+		$mail->Username = "acarver12344@gmail.com";//your Gmail here
+		$mail->Password = "your password";//your password
+		$mail->SMTPSecure = "ssl"; //TLS
+		$mail->Port = 465; //587
 
-		$mail->addAddress('yourhost@domain.com');//Change host email to Gmail domain if using SMTP
-		$mail->setFrom($email);//user email
-		$mail->Subject = $subject;//user name
-		$mail->isHTML(true);//takes html data as true don't change
-		$mail->Body = $message;//user message
+		$mail->addAddress('acarver12344@gmail.com');//your Gmail here
+		$mail->setFrom($email);
+		$mail->Subject = $subject;
+		$mail->isHTML(true);
+		$mail->Body = $message;
 		$mail->addAttachment($file);
 
 		if ($mail->send())
-		    header('Location: thankyou.html');//redirects to thank you page
+		    header('Location: thankyou.html');
             exit();
 	
 	}
