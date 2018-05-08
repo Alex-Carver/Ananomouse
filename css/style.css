@@ -16,6 +16,8 @@
     font-style: normal;
 }
 
+
+
 body {
   -webkit-transition-timing-function: ease;
        -o-transition-timing-function: ease;
@@ -134,6 +136,11 @@ hr {
 
 input{
 	margin-bottom: 10px;
+	float: left;
+}
+
+textarea{
+	float: left;
 }
 
 a.active{
@@ -1908,6 +1915,21 @@ form, #web_form {
     padding-top: 150px;
 }
 
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 10px;
+}
+
 /*------------------------Thakyou Styles-------------------*/
 
 #thankYou .jumbotron{
@@ -2335,6 +2357,21 @@ form {
     width: 100%;
 }
 
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 10px;
+}
+
 }
 
 @media only screen 
@@ -2643,6 +2680,21 @@ h1 span {
 .copyright{
 	color: #eee!important;
 	font-size: 18px!important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 10px;
 }
 
 

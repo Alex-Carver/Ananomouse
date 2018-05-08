@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
 
@@ -217,20 +219,17 @@
   <footer id="footer">
     <div class="container-fluid">
       <div class="row justify-content-center contact">
-        <form name='web_form' id='web_form' method='post' action='form.php'>
 
-          <label for="exampleInputEmail1"><h3 style="color: #eee; margin: 0; 
+
+        <form id="web_form" method="post" action="sendemail.php">
+              <label for="exampleInputEmail1"><h3 style="color: #eee; margin: 0; 
      font-weight: 400;">Request Information</h3></label>
-
-          <input type='text' name='name' class="form-control" id="name" placeholder="Your Name">
-
-          <input type="text" class="form-control" name='email' id='email' placeholder="youremail@domain.com">
-
-          <button type="submit" name='s1' id='s1' value="submit" class="btn btn- 
-     primary btn2">Submit</button>
+          <input class="form-control" name="subject" placeholder="Your Name"><br>
+          <input class="form-control" name="email" type="email" placeholder="Email..."><br>
+          <textarea placeholder="Message..." class="form-control" name="message"></textarea><br>
+          <input class="btn btn-primary" name="submit" type="submit" value="Request">
         </form>
-      </div>
-
+</div>
       <div class="row company-info">
         <div class="col-sm-6">
           <h2 class="info-title text-left">Ananomouse Corporation</h2>
